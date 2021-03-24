@@ -1,7 +1,7 @@
 <template>
-  <div class="home">
-    <h1>Cultiva tu hongo</h1>
-  </div>
+  <section class="section">
+    <h1 class="title">Cultiva tu hongo</h1>
+  </section>
 </template>
 
 <script>
