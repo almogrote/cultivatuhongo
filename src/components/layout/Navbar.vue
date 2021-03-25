@@ -9,11 +9,13 @@
       </b-navbar-item>
     </template>
     <template #start>
-      <b-navbar-item href="#"> Equipación </b-navbar-item>
-      <b-navbar-item href="#"> Complementos </b-navbar-item>
-      <b-navbar-item href="#"> Cultivo </b-navbar-item>
-      <b-navbar-item href="#"> Ropa </b-navbar-item>
-      <b-navbar-item href="#"> Contacto </b-navbar-item>
+      <div class="buttons is-hidden-mobile">
+        <a class="button is-primary is-rounded" tag="router-link" :to="{ path: '/' }"> Equipación </a>
+        <a class="button is-primary is-rounded" tag="router-link" :to="{ path: '/' }"> Complementos </a>
+        <a class="button is-primary is-rounded" tag="router-link" :to="{ path: '/' }"> Cultivo </a>
+        <a class="button is-primary is-rounded" tag="router-link" :to="{ path: '/' }"> Ropa </a>
+        <a class="button is-primary is-rounded" tag="router-link" :to="{ path: '/' }"> Contacto </a>
+      </div>
     </template>
 
     <template #end>

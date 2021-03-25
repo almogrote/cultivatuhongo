@@ -1,0 +1,1109 @@
+{
+  "products": [
+    {
+      "id": "000",
+      "product_id": "000",
+      "name": "Pleurotus Ostreatus (Seta de ostra)",
+      "description": "Es un excelente productor, produce grandes racimos de setas. Son apreciados gastron\u00F3micamente por su textura y sabor. El substrato ideal es el uso de paja pasteurizada. La temperatura ideal para el desarrollo de su micelio gira entorno a los 22\u00BAC y 28\u00BAC.  Para la fructificaci\u00F3n la humedad ambiental ideal est\u00E1 entre 75 y el 85% y la temperatura de 12 a 18\u00BAC.",
+      "price": "15",
+      "stock": "30",
+      "offers": "5",
+      "featured": "1",
+      "image": [
+        ""
+      ]
+    },
+    {
+      "id": "001",
+      "product_id": "000",
+      "name": "Pleurotus djamor (Oreja de Patac\u00E1n)",
+      "description": "Es un excelente productor, produce grandes racimos de setas rosadas en forma de tejas. Son apreciados gastron\u00F3micamente por su textura y sabor. El substrato ideal es el uso de paja pasteurizada. La temperatura ideal para el desarrollo de su micelio giran entorno a los 22\u00BAC y 28\u00BAC.  Para la fructificaci\u00F3n la humedad ambiental ideal est\u00E1 entre 75 y el 85% y la temperatura de 12 a 21\u00BAC.",
+      "price": "15",
+      "stock": "25",
+      "offers": "5",
+      "featured": "1",
+      "image": [
+        ""
+      ]
+    },
+    {
+      "id": "002",
+      "product_id": "000",
+      "name": "Pleurotus Eryngii (Setas de cardo)",
+      "description": "Nos encontramos ante una seta de origen silvestre que aparece con frecuencia en oto\u00F1o y primavera. Suele crecer asociada al cardo corredor por lo que tambi\u00E9n es conocida como seta de cardo. Es un hongo muy apreciado en cocina por su exquisito sabor.\r\nPese a su origen silvestre, se puede cultivar en interior.\r\n",
+      "price": "15",
+      "stock": "40",
+      "offers": "5",
+      "featured": "1",
+      "image": [
+        ""
+      ]
+    },
+    {
+      "id": "003",
+      "product_id": "000",
+      "name": "Agaricus bisporus (Champi\u00F1on)",
+      "description": "Produce setas en abundancia, de tama\u00F1o medio.  El substrato ideal se debe componer de 50% paja pasteurizada y 50% esti\u00E9rcol de caballo pasteurizado, adem\u00E1s de una o dos cucharadas de yeso agr\u00EDcola. Su temperatura ideal para el crecimiento de su micelio es entorno a los 15 y 25,5\u00BAC. La fructificaci\u00F3n se da entre 60 y 85% de humedad ambiental y una temperatura entre 12 y 25\u00BAC.",
+      "price": "15",
+      "stock": "33",
+      "offers": "5",
+      "featured": "",
+      "image": [
+        "1"
+      ]
+    },
+    {
+      "id": "004",
+      "product_id": "000",
+      "name": "Agaricus Brunnescens (Champi\u00F1\u00F3n portobello)",
+      "description": "Produce setas en abundancia, de tamaño medio.  El substrato ideal se debe componer de 50% paja pasteurizada y 50% estiércol de caballo pasteurizado, además de una o dos cucharadas de yeso agrícola. Su temperatura ideal para el crecimiento de su micelio es entorno a los 15 y 25,5ºC. La fructificación se da entre 60 y 85% de humedad ambiental y una temperatura entre 12 y 25ºC parámetros similares al “Agaricus bisporus”.",
+      "price": "20",
+      "stock": "15",
+      "offers": "5",
+      "featured": "1",
+      "image": [
+        ""
+      ]
+    },
+    {
+      "id": "005",
+      "product_id": "000",
+      "name": "Hydnum Repandum (Lengua de vaca)",
+      "description": "Se trata de un hongo micorriza, que deber\u00E1s hacer crecer en grano o pellets para posteriormente inocular ciertas plantas.",
+      "price": "15",
+      "stock": "14",
+      "offers": "5",
+      "featured": "0",
+      "image": [
+        ""
+      ]
+    },
+    {
+      "id": "006",
+      "product_id": "000",
+      "name": "Agrocybe Aegerita (Seta de chopo)",
+      "description": "Es un excelente productor. Apreciada gastronomicamente por su textura y sabor. Su micelio se desarrolla perfectamente con temperaturas entre 22 y 28\u00BA. Para su fructificaci\u00F3n su temperatura debe estar entre 12 y 18\u00BAC y una humedad ambiental entre 75 y 85%.",
+      "price": "20",
+      "stock": "23",
+      "offers": "5",
+      "featured": "1",
+      "image": [
+        ""
+      ]
+    },
+    {
+      "id": "007",
+      "product_id": "000",
+      "name": "Pleurotus Citrinopileatus (Seta dorada)",
+      "description": "Es un excelente productor con grandes racimos de setas color amarillo.  Apreciadas gastronomicamente por su textura y sabor. Su temperatura ideal para el crecimiento de su micelio va de 22 a 28\u00BAC. Para la fructificaci\u00F3n su temperatura estar\u00E1 comprendida entre 12 y 21\u00BAC y una humedad ambientel entre 75 y 85%.",
+      "price": "20",
+      "stock": "20",
+      "offers": "5",
+      "featured": "0",
+      "image": [
+        ""
+      ]
+    },
+    {
+      "id": "008",
+      "product_id": "000",
+      "name": "Lentinula Edodes (Shiitake)",
+      "description": "Es un productor medio. Su cultivo se puede dar en troncos inoculados con pellets o bolsas de blanco micelio. Su micelio se desarrolla perfectamente con temperaturas de 25 y 28\u00BAC. Para su fructificaci\u00F3n la temperatura ideal debe estar entre 25 y 30\u00BAC y una humedad ambiental entre 70 y 80%.",
+      "price": "10",
+      "stock": "18",
+      "offers": "5",
+      "featured": "1",
+      "image": [
+        ""
+      ]
+    },
+    {
+      "id": "009",
+      "product_id": "001",
+      "name": "Pleurotus Ostreatus Honey 10ml",
+      "description": "(Seta de Ostra)  El substrato ideal es el uso de paja pasteurizada. La temperatura ideal para el desarrollo de su micelio gira entorno a los 22\u00BAC y 28\u00BAC.  Para la fructificaci\u00F3n la humedad ambiental ideal est\u00E1 entre 75 y el 85% y la temperatura de 12 a 18\u00BAC.",
+      "price": "20",
+      "stock": "33",
+      "offers": "5",
+      "featured": "1",
+      "image": [
+        ""
+      ]
+    },
+    {
+      "id": "010",
+      "product_id": "001",
+      "name": "Pleurotus Eryngii 10ml",
+      "description": "(Setas de cardo) Nos encontramos ante una seta de origen silvestre que aparece con frecuencia en oto\u00F1o y primavera. Suele crecer asociada al cardo corredor por lo que tambi\u00E9n es conocida como seta de cardo. Es un hongo muy apreciado en cocina por su exquisito sabor. Pese a su origen silvestre, se puede cultivar en interior.",
+      "price": "15",
+      "stock": "22",
+      "offers": "15",
+      "featured": "1",
+      "image": [
+        ""
+      ]
+    },
+    {
+      "id": "011",
+      "product_id": "001",
+      "name": "Hericium erinaceus Suero 10ml ",
+      "description": " (Melena de Le\u00F3n) Suero fisiol\u00F3gico cargado de esporas de este hermosa seta. Apreciada gastronomicamente, cultivada preferiblemente en interior por su dificultad de recolecci\u00F3n.",
+      "price": "20",
+      "stock": "18",
+      "offers": "15",
+      "featured": "1",
+      "image": [
+        ""
+      ]
+    },
+    {
+      "id": "012",
+      "product_id": "001",
+      "name": "Pleurotus Citrinopilateus (Ostra amarilla)",
+      "description": "El Pleurotus citrinopileatus es una seta de origen tropical, familia de la muy conocida Pleurotus ostreatus. Su sabor es muy similar aunque con un ligero sabor a avellanas, es suave y de consistencia carnosa.",
+      "price": "20",
+      "stock": "19",
+      "offers": "15",
+      "featured": "1",
+      "image": [
+        ""
+      ]
+    },
+    {
+      "id": "013",
+      "product_id": "001",
+      "name": "Coprinus Comatus Suero 10ml",
+      "description": "Tambi\u00E9n conocida como macandil, apagador , barbuda o chipir\u00F3n de monte. Crece en pastizales abonados, parques bordes y caminos. Deber\u00E1s hacerlo crecer en grano de arroz preferiblemente.",
+      "price": "45",
+      "stock": "20",
+      "offers": "15",
+      "featured": "1",
+      "image": [
+        ""
+      ]
+    },
+    {
+      "id": "014",
+      "product_id": "001",
+      "name": "Pholiota Adiposa Honey 10ml",
+      "description": "(Seta de casta\u00F1as) Seta que se caracteriza por su crecimiento en grupos sobre tocones, su sombrero y pie viscosos y de coloraci\u00F3n amarilla viva con escamas gelatinosas de color ferruginoso por sombrero y pie y sus l\u00E1minas ocr\u00E1ceas en la madurez.   Deber\u00E1s hacer crecer el micelio vivo en grano de centeno.",
+      "price": "25",
+      "stock": "20",
+      "offers": "15",
+      "featured": "1",
+      "image": [
+        ""
+      ]
+    },
+    {
+      "id": "015",
+      "product_id": "001",
+      "name": "Flammulina velutipes  10ml",
+      "description": "(Enoki) Las condiciones \u00F3ptimas de cultivo son 13-15 \u00BAC, aunque la seta enoki puede crecer bien entre 8 y 18 \u00BAC. Con el fin de obtener una cabeza peque\u00F1a y un color blanco es conveniente alejarlo de la luz o incluso cubrirlo con un pl\u00E1stico para aumentar el nivel de CO2. ",
+      "price": "25",
+      "stock": "20",
+      "offers": "15",
+      "featured": "0",
+      "image": [
+        ""
+      ]
+    },
+    {
+      "id": "016",
+      "product_id": "001",
+      "name": "Auricularia auricula-judae Honey 10ml",
+      "description": "(Oreja de judas) Disponemos de micelio vivo de este apreciado y ex\u00F3tico hongo. Deber\u00E1s inocular en pellets para utilizarlo com spawn en los troncos.",
+      "price": "25",
+      "stock": "27",
+      "offers": "15",
+      "featured": "1",
+      "image": [
+        ""
+      ]
+    },
+    {
+      "id": "017",
+      "product_id": "001",
+      "name": "Lentinula Edodes Honey 10ml",
+      "description": "(Shiitake) Honey para inocular directamente en el tronco o pellets como spawn. Su micelio se desarrolla perfectamente con temperaturas de 25 y 28\u00BAC. Para su fructificaci\u00F3n la temperatura ideal debe estar entre 25 y 30\u00BAC y una humedad ambiental entre 70 y 80%.",
+      "price": "25",
+      "stock": "16",
+      "offers": "15",
+      "featured": "0",
+      "image": [
+        ""
+      ]
+    },
+    {
+      "id": "018",
+      "product_id": "001",
+      "name": "Agrocybe Aegerita (Seta de chopo)",
+      "description": "Su micelio se desarrolla perfectamente en sustratos ricos en paja pasteurizada en temperaturas entre 22 y 28\u00BA.Para su fructificaci\u00F3n se requiere un entorno controlado en el que se deber\u00E1 proporcionar ventilaci\u00F3n suave, humedad entre el 75 y 85%.\r\nLa temperatura en esta fase deber\u00E1 estar comprendida entre 12 y 18\u00BA.",
+      "price": "20",
+      "stock": "19",
+      "offers": "15",
+      "featured": "1",
+      "image": [
+        ""
+      ]
+    },
+    {
+      "id": "019",
+      "product_id": "001",
+      "name": "Pleurotus djamor (Oreja de Patac\u00E1n)",
+      "description": "Su micelio se desarrolla perfectamente en sustratos ricos en paja pasteurizada en temperaturas entre 22 y 28\u00BA. Tambi\u00E9n se puede cultivar sobre troncos.\r\nPara su fructificaci\u00F3n se requiere un entorno controlado en el que se deber\u00E1 proporcionar ventilaci\u00F3n suave, humedad entre el 75 y 85%.\r\nLa temperatura en esta fase deber\u00E1 estar comprendida entre 12 y 21\u00BA. ",
+      "price": "20",
+      "stock": "22",
+      "offers": "5",
+      "featured": "1",
+      "image": [
+        ""
+      ]
+    },
+    {
+      "id": "020",
+      "product_id": "002",
+      "name": "Cubensis Amazonian",
+      "description": "Tiene su origen en colombia. Sus setas pueden llegar a medir 10cm de altura. Su micelio es agresivo de crecimiento r\u00E1pido. Potencia media.",
+      "price": "40",
+      "stock": "14",
+      "offers": "5",
+      "featured": "0",
+      "image": [
+        ""
+      ]
+    },
+    {
+      "id": "021",
+      "product_id": "002",
+      "name": "Cubensis McKenaii",
+      "description": "Aparecida en smartshops holandeses. Se cree es un cruce de laboratorio. Se le da este nombre por el gran conocido psiconauta, Terence McKena. Potencia alta.",
+      "price": "40",
+      "stock": "13",
+      "offers": "5",
+      "featured": "0",
+      "image": [
+        ""
+      ]
+    },
+    {
+      "id": "022",
+      "product_id": "002",
+      "name": "Cubensis MobyDick",
+      "description": "Se trata de un cruce de Albino A+ con Golden Teacher. Ejemplares monstruosos de pigmentaci\u00F3n blanca. Potencia alta.",
+      "price": "40",
+      "stock": "55",
+      "offers": "5",
+      "featured": "1",
+      "image": [
+        ""
+      ]
+    },
+    {
+      "id": "023",
+      "product_id": "002",
+      "name": "Cubensis Mazatapec",
+      "description": "Cubensis de originarias de M\u00E9xico. Micelio agresivo muy rizomorfo. Frutos homog\u00E9neos. Potencia baja.",
+      "price": "40",
+      "stock": "21",
+      "offers": "5",
+      "featured": "0",
+      "image": [
+        ""
+      ]
+    },
+    {
+      "id": "024",
+      "product_id": "002",
+      "name": "Pleurotus djamor (Oreja de Patac\u00E1n)",
+      "description": "Es un excelente productor, produce grandes racimos de setas rosadas en forma de tejas. Son apreciados gastron\u00F3micamente por su textura y sabor.",
+      "price": "20",
+      "stock": "32",
+      "offers": "5",
+      "featured": "1",
+      "image": [
+        ""
+      ]
+    },
+    {
+      "id": "025",
+      "product_id": "002",
+      "name": "Pleurotus Ostreatus (Seta de Ostra)",
+      "description": "Es un excelente productor, produce grandes racimos de setas. Son apreciados gastron\u00F3micamente por su textura y sabor.",
+      "price": "20",
+      "stock": "22",
+      "offers": "5",
+      "featured": "1",
+      "image": [
+        ""
+      ]
+    },
+    {
+      "id": "026",
+      "product_id": "002",
+      "name": "Agrocybe Aegerita (Seta de chopo)",
+      "description": "Es un excelente productor. Apreciada gastronomicamente por su textura y sabor. ",
+      "price": "25",
+      "stock": "20",
+      "offers": "5",
+      "featured": "1",
+      "image": [
+        ""
+      ]
+    },
+    {
+      "id": "027",
+      "product_id": "002",
+      "name": "Flammulina velutipes (Enoki)",
+      "description": "Setas apreciadas gastron\u00F3micamente en la comida asi\u00E1tica. Setas de porte peque\u00F1o y grandes grupos.",
+      "price": "20",
+      "stock": "25",
+      "offers": "5",
+      "featured": "1",
+      "image": [
+        ""
+      ]
+    },
+    {
+      "id": "028",
+      "product_id": "002",
+      "name": "Pleurotus Citrinopilateus (Ostra amarilla)",
+      "description": "El Pleurotus citrinopileatus es una seta de origen tropical, familia de la muy conocida Pleurotus ostreatus. Su sabor es muy similar aunque con un ligero sabor a avellanas, es suave y de consistencia carnosa.",
+      "price": "20",
+      "stock": "27",
+      "offers": "5",
+      "featured": "1",
+      "image": [
+        ""
+      ]
+    },
+    {
+      "id": "029",
+      "product_id": "003",
+      "name": "Jeringuilla 10ml",
+      "description": "Jeringuilla de 10ml de polipropileno. Est\u00E9riles para uso en laboratorio.",
+      "price": "1",
+      "stock": "26",
+      "offers": "5",
+      "featured": "0",
+      "image": [
+        ""
+      ]
+    },
+    {
+      "id": "030",
+      "product_id": "003",
+      "name": "Jeringuilla 20ml",
+      "description": "Jeringuilla de 20ml de polipropileno. Est\u00E9riles para uso en laboratorio. ",
+      "price": "2",
+      "stock": "22",
+      "offers": "5",
+      "featured": "1",
+      "image": [
+        ""
+      ]
+    },
+    {
+      "id": "031",
+      "product_id": "003",
+      "name": "Jeringuilla 50ml",
+      "description": "Jeringuilla de 50ml de polipropileno. Est\u00E9riles para uso en laboratorio.",
+      "price": "3",
+      "stock": "20",
+      "offers": "10",
+      "featured": "1",
+      "image": [
+        ""
+      ]
+    },
+    {
+      "id": "032",
+      "product_id": "003",
+      "name": "Bastoncillos ",
+      "description": "Bastoncillos est\u00E9riles, para la siembra en placas petris. Uso en laboratorio.",
+      "price": "5",
+      "stock": "",
+      "offers": "10",
+      "featured": "1",
+      "image": [
+        ""
+      ]
+    },
+    {
+      "id": "033",
+      "product_id": "003",
+      "name": "Kit de disecci\u00F3n",
+      "description": "Kit de disecci\u00F3n para la recolecci\u00F3n de setas y su clonado.",
+      "price": "15",
+      "stock": "20",
+      "offers": "15",
+      "featured": "1",
+      "image": [
+        ""
+      ]
+    },
+    {
+      "id": "034",
+      "product_id": "003",
+      "name": "Guantes L\u00E1tex M",
+      "description": "Guantes de L\u00E1tex para uso en laboratorio. ",
+      "price": "5",
+      "stock": "10",
+      "offers": "15",
+      "featured": "1",
+      "image": [
+        ""
+      ]
+    },
+    {
+      "id": "035",
+      "product_id": "003",
+      "name": "Tijeras",
+      "description": "Tijeras para recolectar tus setas.",
+      "price": "3",
+      "stock": "10",
+      "offers": "15",
+      "featured": "1",
+      "image": [
+        ""
+      ]
+    },
+    {
+      "id": "036",
+      "product_id": "003",
+      "name": "Bistur\u00ED",
+      "description": "Bistur\u00ED est\u00E9ril con recambios de cuchillas.",
+      "price": "5",
+      "stock": "22",
+      "offers": "15",
+      "featured": "1",
+      "image": [
+        ""
+      ]
+    },
+    {
+      "id": "037",
+      "product_id": "003",
+      "name": "Placas Petris",
+      "description": "Placas petris de 90mm. Para uso en laboratorio.",
+      "price": "20",
+      "stock": "20",
+      "offers": "15",
+      "featured": "0",
+      "image": [
+        ""
+      ]
+    },
+    {
+      "id": "038",
+      "product_id": "003",
+      "name": "Bata",
+      "description": "Bata de cuerpo entero para trabajar de forma aseptica en el laboratorio.",
+      "price": "15",
+      "stock": "19",
+      "offers": "10",
+      "featured": "1",
+      "image": [
+        ""
+      ]
+    },
+    {
+      "id": "039",
+      "product_id": "003",
+      "name": "Mascarillas Desechables",
+      "description": "Macarillas desechables para trabajar de forma aseptica en el laboratorio.",
+      "price": "5",
+      "stock": "20",
+      "offers": "10",
+      "featured": "1",
+      "image": [
+        ""
+      ]
+    },
+    {
+      "id": "040",
+      "product_id": "003",
+      "name": "Gorros Desechables",
+      "description": "Gorros para trabajar de forma aseptica en el laboratorio.",
+      "price": "5",
+      "stock": "20",
+      "offers": "10",
+      "featured": "0",
+      "image": [
+        ""
+      ]
+    },
+    {
+      "id": "041",
+      "product_id": "003",
+      "name": "Micropore",
+      "description": "Cinta de micropore para tapar el agujero de inoculación o para uso en una slingshoot.",
+      "price": "10",
+      "stock": "10",
+      "offers": "10",
+      "featured": "0",
+      "image": [
+        ""
+      ]
+    },
+    {
+      "id": "042",
+      "product_id": "002",
+      "name": "Asa de siembra ",
+      "description": "Asa de siembra especial para germinar esporas en placas petris.",
+      "price": "2",
+      "stock": "20",
+      "offers": "10",
+      "featured": "0",
+      "image": [
+        ""
+      ]
+    },
+    {
+      "id": "043",
+      "product_id": "003",
+      "name": "Camara de flujo laminar",
+      "description": "Camara de flujo laminar para poder trabajar de la forma m\u00E1s aseptica posible.",
+      "price": "3",
+      "stock": "20",
+      "offers": "10",
+      "featured": "1",
+      "image": [
+        ""
+      ]
+    },
+    {
+      "id": "044",
+      "product_id": "003",
+      "name": "Alcohol",
+      "description": "Alcohol 98% para la limpieza de manos o pulverizar el espacio de trabajo para una mayor limpieza.",
+      "price": "3",
+      "stock": "20",
+      "offers": "10",
+      "featured": "0",
+      "image": [
+        ""
+      ]
+    },
+    {
+      "id": "045",
+      "product_id": "004",
+      "name": "Navaja Setera",
+      "description": "Navaja para la recolecci\u00F3n de setas en la naturaleza",
+      "price": "18",
+      "stock": "20",
+      "offers": "10",
+      "featured": "0",
+      "image": [
+        ""
+      ]
+    },
+    {
+      "id": "046",
+      "product_id": "004",
+      "name": "Termohigrometro",
+      "description": "Termohigrometro para un mayor control de tu cultivo. ",
+      "price": "5",
+      "stock": "3",
+      "offers": "10",
+      "featured": "1",
+      "image": [
+        ""
+      ]
+    },
+    {
+      "id": "047",
+      "product_id": "004",
+      "name": "Temporizador",
+      "description": "Temporizador para un control mayor sobre tus cultivos y aparatos electr\u00F3nicos.",
+      "price": "5",
+      "stock": "10",
+      "offers": "25",
+      "featured": "1",
+      "image": [
+        ""
+      ]
+    },
+    {
+      "id": "048",
+      "product_id": "004",
+      "name": "L\u00E1mpara de alcohol",
+      "description": "Se trata de una l\u00E1mpara simple de alcohol para esterilizar tu asa de siembra o aguja a la hora de inocular.",
+      "price": "8",
+      "stock": "10",
+      "offers": "25",
+      "featured": "0",
+      "image": [
+        ""
+      ]
+    },
+    {
+      "id": "049",
+      "product_id": "004",
+      "name": "Medidor temperatura",
+      "description": "Ten controlado los par\u00E1metros de temperatura, con este magn\u00EDfico medidor.",
+      "price": "10",
+      "stock": "20",
+      "offers": "25",
+      "featured": "0",
+      "image": [
+        ""
+      ]
+    },
+    {
+      "id": "050",
+      "product_id": "004",
+      "name": "Puertos de inoculaci\u00F3n",
+      "description": "Puertos de polipropileno para uso en tapas especiales.",
+      "price": "5",
+      "stock": "15",
+      "offers": "10",
+      "featured": "0",
+      "image": [
+        ""
+      ]
+    },
+    {
+      "id": "051",
+      "product_id": "004",
+      "name": "Tapas Botes",
+      "description": "Tapas especiales preparadas para una f\u00E1cil inoculaci\u00F3n.",
+      "price": "5",
+      "stock": "20",
+      "offers": "10",
+      "featured": "0",
+      "image": [
+        ""
+      ]
+    },
+    {
+      "id": "052",
+      "product_id": "004",
+      "name": "Bolsas cultivos",
+      "description": "Bolsas de Polipropileno para la esterilizaci\u00F3n del grano o sustrato de cultivo.",
+      "price": "15",
+      "stock": "15",
+      "offers": "10",
+      "featured": "1",
+      "image": [
+        ""
+      ]
+    },
+    {
+      "id": "053",
+      "product_id": "004",
+      "name": "Selladora calor",
+      "description": "Selladora para usar con las bolsas de cultivo.",
+      "price": "20",
+      "stock": "20",
+      "offers": "5",
+      "featured": "1",
+      "image": [
+        ""
+      ]
+    },
+    {
+      "id": "054",
+      "product_id": "004",
+      "name": "Humidificador",
+      "description": "Con este magn\u00EDfico deshumidificador ten la humedad necesaria en tus cultivos.",
+      "price": "20",
+      "stock": "20",
+      "offers": "5",
+      "featured": "1",
+      "image": [
+        ""
+      ]
+    },
+    {
+      "id": "055",
+      "product_id": "005",
+      "name": "All American Model #75X 40L",
+      "description": "Autoclave el\u00E9ctrica con capacidad para 40L de contenido.",
+      "price": "400",
+      "stock": "6",
+      "offers": "5",
+      "featured": "0",
+      "image": [
+        ""
+      ]
+    },
+    {
+      "id": "056",
+      "product_id": "005",
+      "name": "All American Model #50 25L",
+      "description": "Autoclave el\u00E9ctrica con capacidad para 25L de contenido.",
+      "price": "250",
+      "stock": "5",
+      "offers": "15",
+      "featured": "1",
+      "image": [
+        ""
+      ]
+    },
+    {
+      "id": "057",
+      "product_id": "005",
+      "name": "Zeiteinstellung 18L",
+      "description": "Autoclave de marca alemana, gran calidad. Para 18L de contenido.",
+      "price": "150",
+      "stock": "4",
+      "offers": "15",
+      "featured": "0",
+      "image": [
+        ""
+      ]
+    },
+    {
+      "id": "058",
+      "product_id": "005",
+      "name": "JACKBAGGIO 18L",
+      "description": "Autoclave de marca italiana, gran calidad. Para 18L de contenido.",
+      "price": "150",
+      "stock": "2",
+      "offers": "10",
+      "featured": "1",
+      "image": [
+        ""
+      ]
+    },
+    {
+      "id": "059",
+      "product_id": "005",
+      "name": "CGOLDENWALL 24L",
+      "description": "Autoclave de gran calidad, el\u00E9ctrica de gran capacidad (24L).",
+      "price": "250",
+      "stock": "9",
+      "offers": "10",
+      "featured": "0",
+      "image": [
+        ""
+      ]
+    },
+    {
+      "id": "060",
+      "product_id": "005",
+      "name": "Hanchen 18L",
+      "description": "Autoclave de gran calidad el\u00E9ctrica con 18L de capacidad.",
+      "price": "200",
+      "stock": "6",
+      "offers": "20",
+      "featured": "",
+      "image": [
+        ""
+      ]
+    },
+    {
+      "id": "061",
+      "product_id": "006",
+      "name": "Paja pasteurizada",
+      "description": "Bolsas llenas de paja pasteurizada, lista para usar en tus cultivos.",
+      "price": "20",
+      "stock": "10",
+      "offers": "15",
+      "featured": "1",
+      "image": [
+        ""
+      ]
+    },
+    {
+      "id": "062",
+      "product_id": "006",
+      "name": "Centeno esterilizado",
+      "description": "Bolsas llenas de centeno esterilizado, listo para inocular.",
+      "price": "15",
+      "stock": "10",
+      "offers": "20",
+      "featured": "1",
+      "image": [
+        ""
+      ]
+    },
+    {
+      "id": "063",
+      "product_id": "006",
+      "name": "50\/50 Estiercol pasteurizado y paja",
+      "description": "Bolsas rellenas de paja pasteurizada y estiercol de caballo listo para usar en tus cultivos.",
+      "price": "20",
+      "stock": "10",
+      "offers": "10",
+      "featured": "0",
+      "image": [
+        ""
+      ]
+    },
+    {
+      "id": "064",
+      "product_id": "006",
+      "name": "Jarra ma\u00EDz esterilizado",
+      "description": "Jarra con 500cc de ma\u00EDz 100% esterilizado listo para inocular.",
+      "price": "15",
+      "stock": "5",
+      "offers": "10",
+      "featured": "0",
+      "image": [
+        ""
+      ]
+    },
+    {
+      "id": "065",
+      "product_id": "006",
+      "name": "Casing pasteurizado",
+      "description": "50% Vermiculita 50% Tierra esterilizado listo para usar como cobertura en tus cultivos.",
+      "price": "15",
+      "stock": "10",
+      "offers": "10",
+      "featured": "0",
+      "image": [
+        ""
+      ]
+    },
+    {
+      "id": "066",
+      "product_id": "006",
+      "name": "Vermiculita",
+      "description": "Vermiculita para ser usada como casing al 50% con tierra o humus.",
+      "price": "10",
+      "stock": "20",
+      "offers": "10",
+      "featured": "1",
+      "image": [
+        ""
+      ]
+    },
+    {
+      "id": "067",
+      "product_id": "006",
+      "name": "Fibra de coco",
+      "description": "Fibra de coco para ser usada como casing al 50% con tierra o humus",
+      "price": "10",
+      "stock": "20",
+      "offers": "10",
+      "featured": "0",
+      "image": [
+        ""
+      ]
+    },
+    {
+      "id": "067",
+      "product_id": "007",
+      "name": "Pellets de Shiitake",
+      "description": "Pellets completamente micorrizados listos para ser usado como spawn en tu jardín o bolsa de cultivo.",
+      "price": "20",
+      "stock": "17",
+      "offers": "20",
+      "featured": "0",
+      "image": [
+        ""
+      ]
+    },
+    {
+      "id": "068",
+      "product_id": "007",
+      "name": "Bolsa centeno colonizado (Pleurotus Eryngii)",
+      "description": "Bolsa con micelio de Pleurotus Eryngii listo para ser usado en tu jard\u00EDn o para fructificar en interior directamente.",
+      "price": "25",
+      "stock": "20",
+      "offers": "20",
+      "featured": "1",
+      "image": [
+        ""
+      ]
+    },
+    {
+      "id": "069",
+      "product_id": "007",
+      "name": "Bolsa centeno colonizado (Pleurotus Ostreatus)",
+      "description": "Bolsa con micelio de Pleurotus Ostreatus listo para ser usado en tu jard\u00EDn o para fructificar en interior directamente.",
+      "price": "30",
+      "stock": "18",
+      "offers": "20",
+      "featured": "0",
+      "image": [
+        ""
+      ]
+    },
+    {
+      "id": "070",
+      "product_id": "007",
+      "name": "Bolsa arroz colonizado (Hypholoma capnoides)",
+      "description": "Bolsa con micelio de Hypholoma capnoides listo para ser usado en tu jard\u00EDn o para fructificar en interior directamente.",
+      "price": "40",
+      "stock": "20",
+      "offers": "10",
+      "featured": "1",
+      "image": [
+        ""
+      ]
+    },
+    {
+      "id": "071",
+      "product_id": "007",
+      "name": "Bolsa Spawn (Agrocybe Aegerita)",
+      "description": "Bolsa con micelio de Agrocybe Aegerita listo para ser usado en tu jard\u00EDn o para fructificar en interior directamente.",
+      "price": "30",
+      "stock": "20",
+      "offers": "20",
+      "featured": "1",
+      "image": [
+        ""
+      ]
+    },
+    {
+      "id": "072",
+      "product_id": "007",
+      "name": "Tronco colonizado (Lentinula Edodes)",
+      "description": "Tronco con micelio de Lentinula Edodes listo para ser usado en tu jardín o para fructificar en interior directamente.",
+      "price": "70",
+      "stock": "20",
+      "offers": "16",
+      "featured": "0",
+      "image": [
+        ""
+      ]
+    },
+    {
+      "id": "073",
+      "product_id": "007",
+      "name": "Grano Spawn Chanterelle Yellow (Rebozuelo)",
+      "description": "Bolsa con micelio de Spawn Chanterelle Yellow listo para ser usado en tu jard\u00EDn o para fructificar en interior directamente.",
+      "price": "35",
+      "stock": "29",
+      "offers": "25",
+      "featured": "1",
+      "image": [
+        ""
+      ]
+    },
+    {
+      "id": "074",
+      "product_id": "008",
+      "name": "Deshidratador ",
+      "description": "Deshidratador de alimentos, se usa tambi\u00E9n para secar y poder conservar durante mucho mas tiempos nuestras queridas setas.",
+      "price": "20",
+      "stock": "10",
+      "offers": "15",
+      "featured": "0",
+      "image": [
+        ""
+      ]
+    },
+    {
+      "id": "074",
+      "product_id": "008",
+      "name": "Envasadora al vacio",
+      "description": "Si quieres darle mayor protecci\u00F3n y que te duren mas tiempo conservadas las setas que has cosechados, una envasador al vacio es perfecta.",
+      "price": "20",
+      "stock": "10",
+      "offers": "20",
+      "featured": "1",
+      "image": [
+        ""
+      ]
+    },
+    {
+      "id": "075",
+      "product_id": "008",
+      "name": "Gel de silice",
+      "description": "Gel de silice o silica en gel son unas peque\u00F1as bolas hechas de s\u00EDlice usadas para ayudar a secar nuestras setas.",
+      "price": "5",
+      "stock": "20",
+      "offers": "15",
+      "featured": "0",
+      "image": [
+        ""
+      ]
+    },
+    {
+      "id": "076",
+      "product_id": "008",
+      "name": "Tuppers\/Botes",
+      "description": "\u00BFA\u00FAn no tienes un recipiente para guardarlas?, Estos tuppers de alta calidad son perfectos para t\u00ED.",
+      "price": "10",
+      "stock": "20",
+      "offers": "15",
+      "featured": "0",
+      "image": [
+        ""
+      ]
+    },
+    {
+      "id": "077",
+      "product_id": "009",
+      "name": "Gu\u00EDa de hongos de la pen\u00EDnsula ib\u00E9rica",
+      "description": "El objetivo de esta gu\u00EDa es la correcta identificaci\u00F3n, mediante claves dicot\u00F3micas, de los 584 hongos descritos. La descripci\u00F3n de cada especie incluye el nombre cient\u00EDfico y los nombres vulgares, si los hay, en castellano, catal\u00E1n, euskera y gallego y los s\u00EDmbolos que indican su grado de comestibilidad o toxicidad.",
+      "price": "30",
+      "stock": "16",
+      "offers": "15",
+      "featured": "0",
+      "image": [
+        ""
+      ]
+    },
+    {
+      "id": "078",
+      "product_id": "009",
+      "name": "Setas de espa\u00F1a y europa",
+      "description": "M\u00E1s de 1.200 especies y casi 1.200 fotograf\u00EDas en color. Esta imprescindible obra de referencia describe las principales setas y hongos europeos, con fotograf\u00EDas que los muestran en su emplazamiento natural. Incluye fotograf\u00EDas comparadas de las especies comestibles junto con las venenosas para no confundirlas. ",
+      "price": "30",
+      "stock": "10",
+      "offers": "15",
+      "featured": "1",
+      "image": [
+        ""
+      ]
+    },
+    {
+      "id": "079",
+      "product_id": "009",
+      "name": "Gu\u00EDa de Boletus de espa\u00F1a y portugal",
+      "description": "Monograf\u00EDa sobre Boletos que describe ampliamente 106 especies presentes en la Pen\u00EDnsula Ib\u00E9rica y Baleares, realizado por Augusto Calzada Dom\u00EDnguez.Ampliamente ilustrado con 500 fotograf\u00EDas a color, en cada ficha aporta microscop\u00EDas, micrograf\u00EDas, mapa de distribuci\u00F3n, reacciones qu\u00EDmicas, cronolog\u00EDa taxon\u00F3mica, corolog\u00EDa, etimolog\u00EDa, comestibilidad y detallada descripci\u00F3n morfol\u00F3gica.",
+      "price": "25",
+      "stock": "8",
+      "offers": "15",
+      "featured": "1",
+      "image": [
+        ""
+      ]
+    },
+    {
+      "id": "080",
+      "product_id": "009",
+      "name": "Setas medicinales",
+      "description": "Coincidiendo con el inicio de la temporada de recogida de setas, Ellago Ediciones edita una peque\u00F1a gu\u00EDa de hongos diferente a todas las dem\u00E1s, pues en ella se presenta informaci\u00F3n sobre diversas setas anotando sus propiedades medicinales. Alejandro M\u00EDnguez nos acerca a doce setas comestibles que se pueden encontrar silvestres o ya comercializadas en el mercado y cuyas carater\u00EDsticas nos aportan diversos beneficions para la salud, que incluso pueden ayudarnos en el tratamiento y prevenci\u00F3n de ciertas enfermedades como el c\u00E1ncer. ",
+      "price": "15",
+      "stock": "10",
+      "offers": "10",
+      "featured": "0",
+      "image": [
+        ""
+      ]
+    },
+    {
+      "id": "081",
+      "product_id": "009",
+      "name": "Fungarium",
+      "description": "\u00A1Bienvenidos a Fungarium! Entrad en el mundo de los hongos para aprender todo lo posible sobre estas fascinantes formas de vida. Un libro que combina a la perfecci\u00F3n con lo aprendido en Animalium y en Botanicum. \u00A1No os lo perd\u00E1is!",
+      "price": "25",
+      "stock": "27",
+      "offers": "10",
+      "featured": "0",
+      "image": [
+        ""
+      ]
+    },
+    {
+      "id": "082",
+      "product_id": "009",
+      "name": "Recolecci\u00F3n de setas silvestres",
+      "description": "Al objeto de facilitar un correcto aprovechamiento forestal de los montes y un m\u00EDnimo conocimiento te\u00F3rico-pr\u00E1ctico sobre los hongos para poder efectuar la recolecci\u00F3n silvestre de setas y trufas de una forma segura y sostenible, deber\u00EDa impartirse formaci\u00F3n respecto a las materias que comportan este grupo de seres vivos, clasificados bajo el Reino Fungi. ",
+      "price": "20",
+      "stock": "20",
+      "offers": "10",
+      "featured": "0",
+      "image": [
+        ""
+      ]
+    }
+  ]
+}
