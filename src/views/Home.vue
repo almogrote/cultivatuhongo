@@ -1,6 +1,8 @@
 <template>
   <section class="section">
-    <h1 class="title">Cultiva tu hongo</h1>
+    <div class="container">
+      <h1 class="title">Cultiva tu hongo</h1>
+    </div>
   </section>
 </template>
 

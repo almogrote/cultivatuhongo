@@ -18,15 +18,15 @@
         </div>
         <div class="column is-one-fifth">
           <h1 class="is-size-5 has-text-weight-bold">Locales</h1>
-          <p>tenemoss tiendas</p>
-          <p>tenemos las tiendas</p>
-          <p>tenemos las mejores tiendas</p>
+          <p>Avenida Los Abrigos, 17</p>
+          <p>Calle San Borondón, 6</p>
+          <p>Avenida San Francisco, 9</p>
           <p>tenemos las mejores tiendas</p>
         </div>
         <div class="column is-offset-3 is-one-fifth">
-          <span>Facebook</span>
-          <span>Twiteer</span>
-          <span>Insta</span>
+          <a href="#"><b-icon pack="fab" type="is-white" icon="twitter" size="is-medium" /></a>
+          <a href="#"><b-icon pack="fab" type="is-white" icon="instagram" size="is-medium" /></a>
+          <a href="#"><b-icon pack="fab" type="is-white" icon="facebook-square" size="is-medium" /></a>
         </div>
       </div>
     </div>
