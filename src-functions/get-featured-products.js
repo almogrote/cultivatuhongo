@@ -1,9 +1,6 @@
 import faunadb from 'faunadb'
 
 const q = faunadb.query
-const client = new faunadb.Client({
-  secret: 'fnAEFarML2ACB72fdoDViyrnoAKVJiq_cO-za94-' // process.env.FAUNADB_SECRET
-})
 
 exports.handler = async (event, context, callback) => {
   console.log('Function "featured product" invoked.')
