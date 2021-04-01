@@ -10,39 +10,34 @@
     </template>
     <template #start>
         <b-navbar-item tag="div">
-          <a class="button is-primary is-rounded"
-            tag="router-link"
-            :to="{ path: '/' }">
+          <router-link class="button is-primary is-rounded is-fullwidth"
+            :to="{ path: '/category/3' }">
             Equipación
-          </a>
+          </router-link>
         </b-navbar-item>
         <b-navbar-item tag="div">
-          <a class="button is-primary is-rounded"
-            tag="router-link"
-            :to="{ path: '/' }">
-            Complementos
-          </a>
+          <router-link class="button is-primary is-rounded is-fullwidth"
+            :to="{ path: '/category/0' }">
+            Sello de Esporas
+          </router-link>
         </b-navbar-item>
         <b-navbar-item tag="div">
-          <a class="button is-primary is-rounded"
-            tag="router-link"
-            :to="{ path: '/' }">
-            Cultivo
-          </a>
+          <router-link class="button is-primary is-rounded is-fullwidth"
+            :to="{ path: '/category/1' }">
+            Culturas
+          </router-link>
         </b-navbar-item>
         <b-navbar-item tag="div">
-          <a class="button is-primary is-rounded"
-            tag="router-link"
-            :to="{ path: '/' }">
-            Ropa
-          </a>
+          <router-link class="button is-primary is-rounded is-fullwidth"
+            :to="{ path: '/category/5' }">
+            Autoclaves
+          </router-link>
         </b-navbar-item>
         <b-navbar-item tag="div">
-          <a class="button is-primary is-rounded"
-            tag="router-link"
-            :to="{ path: '/' }">
-            Contacto
-          </a>
+          <router-link class="button is-primary is-rounded is-fullwidth"
+            :to="{ path: '/category/9' }">
+            Libros
+          </router-link>
         </b-navbar-item>
     </template>
 
