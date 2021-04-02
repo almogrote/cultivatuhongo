@@ -1,11 +1,11 @@
 <template>
-  <div class="container  mt-6 mb-6">
+  <div class="container">
     <section class="hero is-widescreen">
       <div class="hero-body">
         <div class="container">
           <div class="columns is-centered is-vcentered">
-            <div class="column is-7 m-6">
-              <h1 class="title">Presentación de tienda</h1>
+            <div class="column is-7">
+              <h1 class="title">Cultiva tu hongo</h1>
               <p>
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry. Lorem Ipsum has been the industry's standard dummy
@@ -19,13 +19,9 @@
                 Lorem Ipsum.
               </p>
             </div>
-            <div class="column has-text-centered is-5">
-              <figure class="image image is-3by2">
-                <img
-                  src="https://learn.freshcap.com/wp-content/uploads/2017/01/1600X1000-blue-oyster-1440x900.png"
-                  class="is-rounded"
-                  style="background-color: black"
-                />
+            <div class="column is-5">
+              <figure class="image is-3by2">
+                <img src="https://learn.freshcap.com/wp-content/uploads/2017/01/1600X1000-blue-oyster-1440x900.png" class="is-rounded"/>
               </figure>
             </div>
           </div>
@@ -38,8 +34,8 @@
 </template>
 
 <script>
-import CarouselFeaturedProd from '../components/layout/CarouselFeaturedProd.vue'
-import MainCategory from '../components/layout/MainCategory.vue'
+import CarouselFeaturedProd from '../components/home/CarouselFeaturedProd.vue'
+import MainCategory from '../components/home/MainCategory.vue'
 
 export default {
   name: 'Home',

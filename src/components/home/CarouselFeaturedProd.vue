@@ -1,7 +1,8 @@
 <template>
-<div class="container">
+<section class="section">
+  <div class="container">
   <div class="has-text-centered">
-      <h1 class="title">Productos destacados</h1>
+      <h2 class="title">Productos destacados</h2>
     </div>
     <b-carousel :progress-type="progressType" :pause-info="false" :repeat="true">
       <b-carousel-item v-for="(carousel, i) in carousels" :key="i">
@@ -31,7 +32,8 @@
         </section>
       </b-carousel-item>
     </b-carousel>
-  </div>
+    </div>
+  </section>
 </template>
 
 <script>

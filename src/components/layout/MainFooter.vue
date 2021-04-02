@@ -1,5 +1,5 @@
 <template>
-  <footer class="section has-background-grey-darker has-text-grey-light">
+  <footer class="footer has-background-grey-darker has-text-grey-light">
     <div class="container">
       <div class="columns pr-6 pl-6">
         <div class="column is-one-fifth">

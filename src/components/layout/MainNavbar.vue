@@ -3,9 +3,8 @@
     <template #brand>
       <b-navbar-item tag="router-link" :to="{ path: '/' }">
         <img
-          src="https://raw.githubusercontent.com/buefy/buefy/dev/static/img/buefy-logo.png"
-          alt="Cultiva tu Hongo"
-        />
+          :src="require('@/assets/logo.svg')"
+          alt="Cultiva tu Hongo" />
       </b-navbar-item>
     </template>
     <template #start>
@@ -46,8 +45,7 @@
         placeholder="Search..."
         type="search"
         icon-pack="fas"
-        icon="search"
-      />
+        icon="search" />
       <b-navbar-item href="#">
         <b-icon pack="fas" icon="user" size="is-medium" />
       </b-navbar-item>

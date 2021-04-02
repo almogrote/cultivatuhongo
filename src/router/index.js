@@ -13,7 +13,16 @@ const routes = [
   {
     path: '/category/:category_id',
     component: () => import('../views/Category.vue')
+  },
+  {
+    path: '/product/:product_id',
+    component: () => import('../views/Product.vue')
+  },
+  {
+    path: '*',
+    redirect: '/'
   }
+
 ]
 
 const router = new VueRouter({
