@@ -5,3 +5,8 @@
   functions = "functions"
   # This is the directory that you are publishing from.
   publish = "dist"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
