@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "serve": "netlify-lambda serve src-functions & vue-cli-service serve",
-    "build": "netlify-lambda build src-functions && vue-cli-service build",
+    "build": "netlify-lambda build src-functions && vue-cli-service build && node -p 'process.env'",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
