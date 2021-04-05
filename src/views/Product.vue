@@ -2,8 +2,8 @@
   <section class="section">
       <div class="container has-background-grey-lighter p-6 mb-6">
         <div class="columns" v-if="product">
-          <div class="column is-5">
-            <b-image src="https://picsum.photos/id/237/800/400"/>
+          <div class="column is-4">
+            <ProductImages />
           </div>
           <div class="column is-6 is-offset-1">
             <h1 class="title mb-2">{{ product.name }}</h1>
@@ -29,12 +29,14 @@
 <script>
 import ProductPriceSection from '../components/products/ProductPriceSection.vue'
 import CarouselFeaturedProd from '../components/home/CarouselFeaturedProd.vue'
+import ProductImages from '../components/products/ProductImages.vue'
 
 export default {
   name: 'Product',
   components: {
     ProductPriceSection,
-    CarouselFeaturedProd
+    CarouselFeaturedProd,
+    ProductImages
   },
   data () {
     return {
