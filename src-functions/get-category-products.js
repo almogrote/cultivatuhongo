@@ -3,7 +3,7 @@ import getId from './utils/getId'
 
 const q = faunadb.query
 const client = new faunadb.Client({
-  secret: process.env.FAUNADB_SECRET
+  secret: ${env:FAUNADB_SECRET}
 })
 
 exports.handler = async (event, context, callback) => {
