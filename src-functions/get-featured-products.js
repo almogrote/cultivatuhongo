@@ -5,7 +5,7 @@ const client = new faunadb.Client({
   secret: process.env.FAUNADB_SECRET
 })
 
-exports.handler = async (event, context, callback) => {
+exports.handler = async function (event, context) {
   console.log('Function "featured product" invoked.')
   try {
     const response = await client.query(
@@ -19,16 +19,14 @@ exports.handler = async (event, context, callback) => {
         q.Lambda('X', q.Get(q.Var('X')))
       )
     )
-    console.log('success', response)
-    return callback(null, {
+    return {
       statusCode: 200,
       body: JSON.stringify(response)
-    })
+    }
   } catch (error) {
-    console.log('error', error)
-    return callback(null, {
+    return {
       statusCode: 400,
       body: JSON.stringify(error)
-    })
+    }
   }
 }
