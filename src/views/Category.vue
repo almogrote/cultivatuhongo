@@ -4,7 +4,31 @@
       <div class="columns is-multiline">
         <div class="column is-one-quarter">
           <!--Category view checkbox-->
-          <FilterCheckox />
+          <template>
+            <div class="container">
+              <aside class="menu">
+                <div class="is-menu-checkbox has-background-light is-1 pt-4 pb-4 pl-2 pr-2">
+                  <p class="menu-label has-text-centered">Productos por precio</p>
+                  <ul class="menu-list">
+                    <li class="has-text-centered">{{range}}€</li>
+                    <li class="has-text-centered"><label><input type="range" v-model="range" min="0" max="600" step="1" /></label></li>
+                  </ul>
+
+                  <p class="menu-label has-text-centered">Stock</p>
+                  <ul class="menu-list">
+                    <li li class="pl-5"><label><input type="radio" v-model="filterStock" value="0"/> Sin Stock</label></li>
+                    <li li class="pl-5"><label><input type="radio" v-model="filterStock" value="10000"/> Con Stock</label></li>
+                  </ul>
+
+                  <p class="menu-label has-text-centered">Ofertas</p>
+                  <ul class="menu-list">
+                    <li class="pl-5"><label><input type="radio" v-model="filterOffers" value="0"/> Sin ofertas</label></li>
+                    <li class="pl-5"><label><input type="radio" v-model="filterOffers" value="10000"/> Con Ofertas</label></li>
+                  </ul>
+                </div>
+              </aside>
+            </div>
+          </template>
         </div>
         <div class="column">
           <!--Category info-->
@@ -16,14 +40,14 @@
               <template #trigger="{ active }">
                 <b-button label="Ordenar por" type="is-dark is-rounded is-small" :icon-right="active ? 'caret-up' : 'caret-down'" />
               </template>
-              <b-dropdown-item aria-role="listitem" @click="sortHighest()">Precio: Más caros primero</b-dropdown-item>
-              <b-dropdown-item aria-role="listitem" @click="sortLowest()">Precio: Más baratos primero</b-dropdown-item>
+              <b-dropdown-item aria-role="listitem" @click="filterBySortHighest">Precio: Más caros primero</b-dropdown-item>
+              <b-dropdown-item aria-role="listitem" @click="filterBySortLowest">Precio: Más baratos primero</b-dropdown-item>
               <b-dropdown-item aria-role="listitem">Ofertas</b-dropdown-item>
             </b-dropdown>
           </div>
           <!-- Products -->
           <div class="columns is-multiline is-mobile" v-if="products">
-            <ProductGrid v-for="(product, index) in products" :key="index" :product="product" />
+            <ProductGrid v-for="(product, index) in filterProducts" :key="index" :product="product"  />
           </div>
         </div>
       </div>
@@ -34,19 +58,22 @@
 
 <script>
 import ProductGrid from '../components/products/ProductGrid.vue'
-import FilterCheckox from '../components/products/FilterCheckbox.vue'
+
 export default {
   name: 'Category',
   components: {
-    ProductGrid,
-    FilterCheckox
+    ProductGrid
   },
   data () {
     return {
-      category_id: this.$route.params.category_id,
-      category: null,
+      category_id: this.$route.name,
+      category: '',
+      name: '',
       products: null,
-      isLoading: true
+      isLoading: true,
+      range: 600,
+      filterStock: Number.MAX_VALUE,
+      filterOffers: Number.MAX_VALUE
     }
   },
   created () {
@@ -67,20 +94,42 @@ export default {
         .then((response) => response.json())
         .then((data) => {
           this.products = data.data
-          console.log(this.products)
           this.isLoading = false
         })
         .catch((error) => console.log(error))
     },
-    sortLowest () {
-      this.products.sort((a, b) => (a.data.price > b.data.price ? 0 : -1))
+    filterBySortLowest () {
+      return this.products.sort((a, b) => (a.data.price > b.data.price))
     },
-    sortHighest () {
-      this.products.sort((a, b) => (a.data.price < b.data.price ? 0 : -1))
+    filterBySortHighest () {
+      return this.products.sort((a, b) => (a.data.price < b.data.price))
+    },
+    filterProductsByStock: function (products) {
+      return products.filter(product => product.data.stock < this.filterStock)
+    },
+    filterProductsByOffers: function (products) {
+      return products.filter(product => product.data.offers < this.filterOffers)
+    },
+    filterProductsByRange: function (products) {
+      return products.filter(product => (product.data.price > 0 && product.data.price < this.range))
+    },
+    filterProductsByName: function (products) {
+      return products.filter(product => !product.data.name.indexOf(this.name))
+    }
+  },
+  computed: {
+    filterProducts: function () {
+      return this.filterProductsByStock(this.filterProductsByOffers(this.filterProductsByRange(this.filterProductsByName(this.products))))
     }
   }
 }
 </script>
 
 <style>
+.is-menu-checkbox {
+  width: 180px;
+  margin:auto;
+  padding:auto;
+  list-style: none;
+}
 </style>

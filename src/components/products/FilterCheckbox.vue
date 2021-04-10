@@ -3,15 +3,11 @@
     <aside class="menu">
       <div class="is-menu-checkbox has-background-light">
         <p class="menu-label">Productos por precio</p>
-        <ul class="menu-list">
-          <li><label><input type="checkbox" v-model="price" value="10" /> Menor de 10€</label></li>
-          <li><label><input type="checkbox" v-model="price" value="20" /> Menor de 20€</label></li>
-          <li><label><input type="checkbox" v-model="price" value="50" /> Menor de 50€</label></li>
-          <li><label><input type="checkbox" v-model="price" value="100" /> Menor de 100€</label></li>
-        </ul>
+        <li><label><input type="range" v-model="range" min="0" max="500" step="1"/> {{range}}€</label></li>
         <p class="menu-label">STOCK</p>
+        <li><label><input type="radio" v-model="withWithoutStock" value="0"/> Sin Stock</label></li>
+        <li><label><input type="radio" v-model="withWithoutStock" value="Number.MAX_VALUE"/> Con Stock</label></li>
         <ul class="menu-list">
-          <li><label><input type="checkbox" /> En stock</label></li><li><label><input type="checkbox" /> Sin stock</label></li>
           <p class="menu-label">Ofertas</p>
           <li><label><input type="checkbox" /> En oferta</label></li>
           <li><label><input type="checkbox" /> Sin oferta</label></li>
@@ -23,7 +19,11 @@
 
 <script>
 export default {
-  name: 'FilterCheckBox'
+  name: 'FilterCheckBox',
+  props: ['range', 'withWithoutStock', 'withWithoutOffers'],
+  range: 600,
+  withWithoutStock: Number.MAX_VALUE,
+  withWithoutOffers: Number.MAX_VALUE
 }
 </script>
 

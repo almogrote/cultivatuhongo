@@ -10,31 +10,31 @@
     <template #start>
         <b-navbar-item tag="div">
           <router-link class="button is-primary is-rounded is-fullwidth"
-            :to="{ path: '/category/3' }">
+            :to="{ path: '/category/equipamiento-laboratorio' }">
             Equipación
           </router-link>
         </b-navbar-item>
         <b-navbar-item tag="div">
           <router-link class="button is-primary is-rounded is-fullwidth"
-            :to="{ path: '/category/0' }">
+            :to="{ path: '/category/sello-de-esporas' }">
             Sello de Esporas
           </router-link>
         </b-navbar-item>
         <b-navbar-item tag="div">
           <router-link class="button is-primary is-rounded is-fullwidth"
-            :to="{ path: '/category/1' }">
+            :to="{ path: '/category/culturas-liquidas' }">
             Culturas
           </router-link>
         </b-navbar-item>
         <b-navbar-item tag="div">
           <router-link class="button is-primary is-rounded is-fullwidth"
-            :to="{ path: '/category/5' }">
+            :to="{ path: '/category/autoclaves' }">
             Autoclaves
           </router-link>
         </b-navbar-item>
         <b-navbar-item tag="div">
           <router-link class="button is-primary is-rounded is-fullwidth"
-            :to="{ path: '/category/9' }">
+            :to="{ path: '/category/libros' }">
             Libros
           </router-link>
         </b-navbar-item>
@@ -45,7 +45,7 @@
         placeholder="Search..."
         type="search"
         icon-pack="fas"
-        icon="search" />
+        icon="search"  />
       <b-navbar-item href="#">
         <b-icon pack="fas" icon="user" size="is-medium" />
       </b-navbar-item>
