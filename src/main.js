@@ -5,6 +5,7 @@ import store from './store'
 import Buefy from 'buefy'
 import 'buefy/dist/buefy.css'
 import '@fortawesome/fontawesome-free/css/all.css'
+import VueAnalytics from 'vue-analytics'
 
 Vue.config.productionTip = false
 
@@ -14,6 +15,17 @@ Vue.use(Buefy, {
   defaultFirstDayOfWeek: 1
 })
 
+Vue.use(VueAnalytics, {
+  id: 'UA-194304307-1',
+  autoTracking: {
+    screenview: true
+  },
+  debug: {
+    enabled: false,
+    trace: true,
+    sendHitTask: true
+  }
+})
 new Vue({
   router,
   store,

@@ -1,5 +1,5 @@
 <template>
-  <div class="column is-one-third-tablet is-half-mobile">
+  <div class="column is-one-third-tablet is-half-mobile"  @click="clickProd">
     <router-link
       :to="{ path: `/product/${product.data.id}` }"
       class="is-flex is-flex-direction-column">
@@ -20,6 +20,19 @@ export default {
   props: ['product'],
   components: {
     ProductPriceSection
+  },
+  methods: {
+    track () {
+      this.$ga.page('/category')
+      this.$ga.page('/product')
+      this.$ga.page('/home')
+    },
+    clickProd: function () {
+      this.$ga.event('product', this.product.data.name)
+    }
+  },
+  beforeMount () {
+    this.track()
   }
 }
 </script>

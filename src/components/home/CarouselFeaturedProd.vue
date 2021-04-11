@@ -6,7 +6,7 @@
     </div>
     <b-carousel :progress-type="progressType" :pause-info="false" :repeat="true">
       <b-carousel-item v-for="(carousel, i) in carousels" :key="i">
-        <section :class="`hero is-medium is-bold mb-6 mt-6`">
+        <section :class="`hero is-medium is-bold mb-6 mt-6`"  @click="clickFeaturedProd">
           <div class="columns is-centered is-vcentered">
             <div class="column has-text-centered is-3">
               <figure class="image is-3by2">
@@ -64,6 +64,19 @@ export default {
         }
       ]
     }
+  },
+  methods: {
+    track () {
+      this.$ga.page('/category')
+      this.$ga.page('/product')
+      this.$ga.page('/home')
+    },
+    clickFeaturedProd: function () {
+      this.$ga.event('home', 'featuredProd')
+    }
+  },
+  beforeMount () {
+    this.track()
   }
 }
 </script>

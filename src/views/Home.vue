@@ -42,6 +42,16 @@ export default {
   components: {
     CarouselFeaturedProd,
     MainCategory
+  },
+  methods: {
+    track () {
+      this.$ga.page('/category')
+      this.$ga.page('/product')
+      this.$ga.page('/home')
+    }
+  },
+  beforeMount () {
+    this.track()
   }
 }
 </script>
