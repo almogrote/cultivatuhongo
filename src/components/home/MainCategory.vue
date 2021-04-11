@@ -30,7 +30,7 @@ export default {
   },
   methods: {
     getCategory () {
-      fetch(`/.netlify/functions/get-categories.js/${this.category_id}`)
+      fetch('/.netlify/functions/get-categories.js')
         .then((response) => response.json())
         .then((data) => {
           this.category = data
