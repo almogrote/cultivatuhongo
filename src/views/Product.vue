@@ -9,16 +9,14 @@
             <h1 class="title mb-2">{{ product.name }}</h1>
             <p class="mb-3">{{ product.description }}</p>
             <ProductPriceSection :price="product.price" :stock="product.stock" />
-            <form @submit.prevent="addToCart" class="mt-4">
-              <b-field>
-                <b-field grouped>
-                  <p class="control">
-                    <b-button :disabled="!selected" native-type="submit" type="is-dark" label="Comprar" />
-                  </p>
-                  <b-numberinput type="is-dark" v-model="selected" :value="0" min="0" :max="product.stock" controls-position="compact" />
-                </b-field>
-              </b-field>
-            </form>
+            <div class="columns mt-1">
+              <div class="column is-narrow">
+                <b-numberinput type="is-dark" v-model="quantity" :value="0" min="0" :max="product.stock" :editable="false" controls-position="compact" />
+              </div>
+              <div class="column">
+                <b-button :disabled="!quantity" @click="addToCart" type="is-dark" label="Añadir al carrito" />
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -30,6 +28,7 @@
 import ProductPriceSection from '../components/products/ProductPriceSection.vue'
 import CarouselFeaturedProd from '../components/home/CarouselFeaturedProd.vue'
 import ProductImages from '../components/products/ProductImages.vue'
+import { mapActions } from 'vuex'
 
 export default {
   name: 'Product',
@@ -42,7 +41,7 @@ export default {
     return {
       product_id: this.$route.params.product_id,
       product: null,
-      selected: 0
+      quantity: 0
     }
   },
   created () {
@@ -58,8 +57,20 @@ export default {
         .catch((error) => console.log(error))
     },
     addToCart () {
-      return true
-    }
+      const selectedProduct = {
+        price_id: this.product.price_id,
+        quantity: this.quantity,
+        amount: this.product.price,
+        name: this.product.name
+      }
+      this.addProductToCart(selectedProduct)
+      this.quantity = 0
+      this.$buefy.toast.open({
+        message: 'Producto añadido correctamente',
+        type: 'is-success'
+      })
+    },
+    ...mapActions(['addProductToCart'])
   }
 }
 </script>

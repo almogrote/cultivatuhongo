@@ -49,15 +49,23 @@
       <b-navbar-item href="#">
         <b-icon pack="fas" icon="user" size="is-medium" />
       </b-navbar-item>
-      <b-navbar-item href="#">
-        <b-icon pack="fas" icon="shopping-cart" size="is-medium" />
+      <b-navbar-item tag="div">
+        <router-link
+            :to="{ path: '/cart/' }">
+            <b-icon pack="fas" icon="shopping-cart" size="is-medium" />
+            <BadgeCart />
+          </router-link>
       </b-navbar-item>
     </template>
   </b-navbar>
 </template>
 
 <script>
+import BadgeCart from '../cart/BadgeCart.vue'
 export default {
-  name: 'MainNavbar'
+  name: 'MainNavbar',
+  components: {
+    BadgeCart
+  }
 }
 </script>

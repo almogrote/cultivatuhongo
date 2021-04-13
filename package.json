@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.3",
+    "@vue-stripe/vue-stripe": "^4.1.8",
     "buefy": "^0.9.4",
     "core-js": "^3.6.5",
     "encoding": "^0.1.13",
