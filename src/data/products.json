@@ -10,7 +10,9 @@
     "offers": 5,
     "featured": 1,
     "image": [
-      ""
+      "/variedades/pleurotus-ostreatus/pleurotus-ostreatus.webp",
+      "/variedades/pleurotus-ostreatus/pleurotus-ostreatus2.webp",
+      "/variedades/pleurotus-ostreatus/pleurotus-ostreatus3.webp"
     ],
     "price_id": "price_1If8JNA15852FpvpmEmrubwV"
   },
@@ -18,14 +20,16 @@
     "id": 1,
     "category_id": 0,
     "name": "Pleurotus djamor (Oreja de Patac\u00E1n)",
-    "slug": "pleurotus-djamor-patacon",
+    "slug": "pleurotus-djamor-patacan",
     "description": "Es un excelente productor, produce grandes racimos de setas rosadas en forma de tejas. Son apreciados gastron\u00F3micamente por su textura y sabor. El substrato ideal es el uso de paja pasteurizada. La temperatura ideal para el desarrollo de su micelio giran entorno a los 22\u00BAC y 28\u00BAC.  Para la fructificaci\u00F3n la humedad ambiental ideal est\u00E1 entre 75 y el 85% y la temperatura de 12 a 21\u00BAC.",
     "price": 17.75,
     "stock": 25,
     "offers": 5,
     "featured": 1,
     "image": [
-      ""
+      "/variedades/pleurotus-djamor/Pleorotus-djamor.webp",
+      "/variedades/pleurotus-djamor/Pleorotus-djamor2.webp",
+      "/variedades/pleurotus-djamor/Pleorotus-djamor3.webp"
     ],
     "price_id": "price_1If8LFA15852Fpvp9emBtHPs"
   },
@@ -40,7 +44,9 @@
     "offers": 5,
     "featured": 1,
     "image": [
-      ""
+      "/variedades/pleurotus-eryngii/pleurotus-eryngii.webp",
+      "/variedades/pleurotus-eryngii/pleurotus-eryngii2.webp",
+      "/variedades/pleurotus-eryngii/pleurotus-eryngii3.webp"
     ],
     "price_id": "price_1If8NQA15852Fpvpg12zcw9P"
   },
@@ -55,7 +61,9 @@
     "offers": 5,
     "featured": "",
     "image": [
-      "1"
+      "/variedades/lions-mane/lions-mane.webp",
+      "/variedades/lions-mane/lions-mane2.webp",
+      "/variedades/lions-mane/lions-mane3.webp"
     ],
     "price_id": "price_1If8OTA15852FpvpKPlFlnhy"
   },
@@ -70,7 +78,9 @@
     "offers": 5,
     "featured": 1,
     "image": [
-      ""
+      "/variedades/judas/judas.webp",
+      "/variedades/judas/judas2.webp",
+      "/variedades/judas/judas3.webp"
     ],
     "price_id": "price_1If8PvA15852Fpvpaj4qI276"
   },
@@ -85,7 +95,8 @@
     "offers": 5,
     "featured": 0,
     "image": [
-      ""
+      "/variedades/hydnum-rapandum/hydnum-rapandum.webp",
+      "/variedades/hydnum-rapandum/hydnum-rapandum2.webp"
     ],
     "price_id": "price_1If8QcA15852Fpvp2S3NqlL0"
   },
@@ -100,7 +111,9 @@
     "offers": 5,
     "featured": 1,
     "image": [
-      ""
+      "/variedades/Pholiota-adiposa/Pholiota-adiposa.webp",
+      "/variedades/Pholiota-adiposa/Pholiota-adiposa2.webp",
+      "/variedades/Pholiota-adiposa/Pholiota-adiposa3.webp"
     ],
     "price_id": "price_1If8RCA15852FpvpAXoov37U"
   },
@@ -115,7 +128,9 @@
     "offers": 5,
     "featured": 0,
     "image": [
-      ""
+      "/variedades/Pleurotus-Citrinopileatus.webp",
+      "/variedades/Pleurotus-Citrinopileatus2.webp",
+      "/variedades/Pleurotus-Citrinopileatus3.webp"
     ],
     "price_id": "price_1If8S1A15852FpvpLNUFbHjE"
   },
@@ -130,7 +145,9 @@
     "offers": 5,
     "featured": 1,
     "image": [
-      ""
+      "/variedades/lentinuna-edodes.webp",
+      "/variedades/lentinuna-edodes2.webp",
+      "/variedades/lentinuna-edodes3.webp"
     ],
     "price_id": "price_1If8T3A15852FpvpbCgBNVS1"
   },
@@ -145,7 +162,9 @@
     "offers": 5,
     "featured": 1,
     "image": [
-      ""
+      "/variedades/pleurotus-ostreatus/pleurotus-ostreatus.webp",
+      "/variedades/pleurotus-ostreatus/pleurotus-ostreatus2.webp",
+      "/variedades/pleurotus-ostreatus/pleurotus-ostreatus3.webp"
     ],
     "price_id": "price_1If8TdA15852FpvpNbVEpgaA"
   },
@@ -160,7 +179,9 @@
     "offers": 0,
     "featured": 1,
     "image": [
-      ""
+      "/variedades/pleurotus-eryngii/pleurotus-eryngii.webp",
+      "/variedades/pleurotus-eryngii/pleurotus-eryngii2.webp",
+      "/variedades/pleurotus-eryngii/pleurotus-eryngii3.webp"
     ],
     "price_id": "price_1If8U9A15852FpvpwZzotmAJ"
   },
@@ -175,7 +196,9 @@
     "offers": 0,
     "featured": 1,
     "image": [
-      ""
+      "/variedades/lions-mane/lions-mane.webp",
+      "/variedades/lions-mane/lions-mane2.webp",
+      "/variedades/lions-mane/lions-mane3.webp"
     ],
     "price_id": "price_1If8UlA15852Fpvpv7jQ0sOi"
   },
@@ -190,7 +213,9 @@
     "offers": 0,
     "featured": 1,
     "image": [
-      ""
+      "/variedades/Pleurotus-Citrinopileatus.webp",
+      "/variedades/Pleurotus-Citrinopileatus2.webp",
+      "/variedades/Pleurotus-Citrinopileatus3.webp"
     ],
     "price_id": "price_1If8X6A15852FpvpXztui7n6"
   },
@@ -205,7 +230,9 @@
     "offers": 0,
     "featured": 1,
     "image": [
-      ""
+      "/variedades/judas/judas.webp",
+      "/variedades/judas/judas2.webp",
+      "/variedades/judas/judas3.webp"
     ],
     "price_id": "price_1If8XiA15852FpvpK06jIIIH"
   },
@@ -220,7 +247,9 @@
     "offers": 0,
     "featured": 1,
     "image": [
-      ""
+      "/variedades/Pholiota-adiposa/Pholiota-adiposa.webp",
+      "/variedades/Pholiota-adiposa/Pholiota-adiposa2.webp",
+      "/variedades/Pholiota-adiposa/Pholiota-adiposa3.webp"
     ],
     "price_id": "price_1If8YNA15852FpvpuEr5Pkrt"
   },
@@ -235,7 +264,8 @@
     "offers": 0,
     "featured": 0,
     "image": [
-      ""
+      "/variedades/flammulina-velutipes/flammulina-velutipes.webp",
+      "/variedades/flammulina-velutipes/flammulina-velutipes2.webp"
     ],
     "price_id": "price_1If8YwA15852Fpvp1nJubWbM"
   },
@@ -250,7 +280,9 @@
     "offers": 0,
     "featured": 1,
     "image": [
-      ""
+      "/variedades/judas/judas.webp",
+      "/variedades/judas/judas2.webp",
+      "/variedades/judas/judas3.webp"
     ],
     "price_id": "price_1If8ZjA15852FpvpSBplwzgM"
   },
@@ -265,7 +297,9 @@
     "offers": 0,
     "featured": 0,
     "image": [
-      ""
+      "/variedades/lentinuna-edodes.webp",
+      "/variedades/lentinuna-edodes2.webp",
+      "/variedades/lentinuna-edodes3.webp"
     ],
     "price_id": "price_1If8aGA15852Fpvpyu6OEKbq"
   },
@@ -280,7 +314,9 @@
     "offers": 0,
     "featured": 1,
     "image": [
-      ""
+      "/variedades/Pholiota-adiposa/Pholiota-adiposa.webp",
+      "/variedades/Pholiota-adiposa/Pholiota-adiposa2.webp",
+      "/variedades/Pholiota-adiposa/Pholiota-adiposa3.webp"
     ],
     "price_id": "price_1If8aoA15852Fpvpixq0dZN7"
   },
@@ -295,7 +331,9 @@
     "offers": 5,
     "featured": 1,
     "image": [
-      ""
+      "/variedades/pleurotus-djamor/Pleorotus-djamor.webp",
+      "/variedades/pleurotus-djamor/Pleorotus-djamor2.webp",
+      "/variedades/pleurotus-djamor/Pleorotus-djamor3.webp"
     ],
     "price_id": "price_1If8bYA15852FpvpnhjyTPVn"
   },
@@ -310,7 +348,7 @@
     "offers": 5,
     "featured": 0,
     "image": [
-      ""
+      "/kits/cubensis/amazonian.webp"
     ],
     "price_id": "price_1If8cBA15852FpvpIn19EYP4"
   },
@@ -325,7 +363,7 @@
     "offers": 5,
     "featured": 0,
     "image": [
-      ""
+      "/kits/cubensis/mazatapec.webp"
     ],
     "price_id": "price_1If8d5A15852Fpvpt1PC5mQs"
   },
@@ -340,7 +378,7 @@
     "offers": 5,
     "featured": 1,
     "image": [
-      ""
+      "/kits/cubensis/amazonian.webp"
     ],
     "price_id": "price_1If8dfA15852FpvpQgmjZWR2"
   },
@@ -355,7 +393,7 @@
     "offers": 5,
     "featured": 0,
     "image": [
-      ""
+      "/kits/cubensis/mazatapec.webp"
     ],
     "price_id": "price_1If8eGA15852FpvpUlAWsJlc"
   },
@@ -370,7 +408,7 @@
     "offers": 5,
     "featured": 1,
     "image": [
-      ""
+      "/kits/kit2.webp"
     ],
     "price_id": "price_1If8ezA15852FpvpEtsnw7bj"
   },
@@ -385,7 +423,7 @@
     "offers": 5,
     "featured": 1,
     "image": [
-      ""
+      "/kits/kit1.webp"
     ],
     "price_id": "price_1If8fgA15852FpvpFRLaFzcd"
   },
@@ -400,7 +438,7 @@
     "offers": 5,
     "featured": 1,
     "image": [
-      ""
+      "/kits/kit3.webp"
     ],
     "price_id": "price_1If8gbA15852FpvpSiUnkwYp"
   },
@@ -415,7 +453,7 @@
     "offers": 5,
     "featured": 1,
     "image": [
-      ""
+      "/kits/kit2.webp"
     ],
     "price_id": "price_1If8hGA15852FpvpQP3b331v"
   },
@@ -430,7 +468,7 @@
     "offers": 5,
     "featured": 1,
     "image": [
-      ""
+      "/kits/kit1.webp"
     ],
     "price_id": "price_1If8hrA15852Fpvpeqcl3eCC"
   },
@@ -445,7 +483,7 @@
     "offers": 5,
     "featured": 0,
     "image": [
-      ""
+      "/equipamiento/jeringa.webp"
     ],
     "price_id": "price_1If8ibA15852Fpvp57jGQZep"
   },
@@ -460,7 +498,7 @@
     "offers": 5,
     "featured": 1,
     "image": [
-      ""
+      "/equipamiento/jeringa.webp"
     ],
     "price_id": "price_1If8jhA15852FpvpFMuneqJV"
   },
@@ -475,7 +513,7 @@
     "offers": 0,
     "featured": 1,
     "image": [
-      ""
+      "/equipamiento/jeringa.webp"
     ],
     "price_id": "price_1If8kGA15852Fpvp4UDHBkjM"
   },
@@ -490,7 +528,7 @@
     "offers": "10",
     "featured": "1",
     "image": [
-      ""
+      "/equipamiento/cotton-swap.webp"
     ],
     "price_id": "price_1If8koA15852FpvpM41FNhD5"
   },
@@ -505,7 +543,7 @@
     "offers": 0,
     "featured": 1,
     "image": [
-      ""
+      "/equipamiento/dissection-kit.webp"
     ],
     "price_id": "price_1If8m5A15852FpvpqYm8DdjE"
   },
@@ -520,7 +558,7 @@
     "offers": 0,
     "featured": 1,
     "image": [
-      ""
+      "/equipamiento/guantes.webp"
     ],
     "price_id": "price_1If8mpA15852Fpvp3V5VFj3x"
   },
@@ -535,7 +573,7 @@
     "offers": 0,
     "featured": 1,
     "image": [
-      ""
+      "/equipamiento/scissors.webp"
     ],
     "price_id": "price_1If8nSA15852FpvpuG0NFKrp"
   },
@@ -550,7 +588,7 @@
     "offers": 0,
     "featured": 1,
     "image": [
-      ""
+      "/equipamiento/scalpel.webp"
     ],
     "price_id": "price_1If8o2A15852FpvpIIE7MOni"
   },
@@ -565,7 +603,7 @@
     "offers": 0,
     "featured": 0,
     "image": [
-      ""
+      "/equipamiento/placas-petri.webp"
     ],
     "price_id": "price_1If8odA15852FpvpmGxWkQWM"
   },
@@ -580,7 +618,7 @@
     "offers": 0,
     "featured": 1,
     "image": [
-      ""
+      "/equipamiento/guantes.webp"
     ],
     "price_id": "price_1If8pBA15852Fpvp1qYwez5g"
   },
@@ -595,7 +633,7 @@
     "offers": 0,
     "featured": 1,
     "image": [
-      ""
+      "/equipamiento/mascarillas.webp"
     ],
     "price_id": "price_1If8q4A15852FpvpGRJOZlxB"
   },
@@ -610,7 +648,7 @@
     "offers": 0,
     "featured": 0,
     "image": [
-      ""
+      "/equipamiento/mascarillas.webp"
     ],
     "price_id": "price_1If8qqA15852FpvpdMWT06m6"
   },
@@ -625,7 +663,7 @@
     "offers": 0,
     "featured": 0,
     "image": [
-      ""
+      "/equipamiento/micropore.webp"
     ],
     "price_id": "price_1If8rSA15852FpvpWJwG7sTr"
   },
@@ -640,7 +678,7 @@
     "offers": 0,
     "featured": 0,
     "image": [
-      ""
+      "/equipamiento/jeringa.webp"
     ],
     "price_id": "price_1If8s5A15852Fpvpj3lx8qDt"
   },
@@ -655,7 +693,7 @@
     "offers": 0,
     "featured": 1,
     "image": [
-      ""
+      "/equipamiento/mascarillas.webp"
     ],
     "price_id": "price_1If8seA15852FpvpNKZcO8gQ"
   },
@@ -670,7 +708,7 @@
     "offers": 0,
     "featured": 0,
     "image": [
-      ""
+      "/equipamiento/lampara-alcohol.webp"
     ],
     "price_id": "price_1If8tFA15852FpvpEkeAVYiS"
   },
@@ -685,7 +723,7 @@
     "offers": 0,
     "featured": 0,
     "image": [
-      ""
+      "/accesorios/navaja-setera.webp"
     ],
     "price_id": "price_1If8ttA15852Fpvptf8op2oV"
   },
@@ -700,7 +738,7 @@
     "offers": 0,
     "featured": 1,
     "image": [
-      ""
+      "/accesorios/termohigrometro.webp"
     ],
     "price_id": "price_1If8uTA15852Fpvpy1LEIcv0"
   },
@@ -715,7 +753,7 @@
     "offers": 0,
     "featured": 1,
     "image": [
-      ""
+      "/accesorios/temporizador.webp"
     ],
     "price_id": "price_1If8v4A15852Fpvp4LD7IEgB"
   },
@@ -730,7 +768,7 @@
     "offers": 0,
     "featured": 0,
     "image": [
-      ""
+      "/accesorios/lampara-alcohol.webp"
     ],
     "price_id": "price_1If8voA15852Fpvp3GTge8QR"
   },
@@ -745,7 +783,7 @@
     "offers": 0,
     "featured": 0,
     "image": [
-      ""
+      "/accesorios/termohigrometro.webp"
     ],
     "price_id": "price_1If8wzA15852Fpvp2o3YbIrX"
   },
@@ -760,7 +798,7 @@
     "offers": 0,
     "featured": 0,
     "image": [
-      ""
+      "/accesorios/inoculation-port.webp"
     ],
     "price_id": "price_1If8xnA15852FpvpMMgMIdXs"
   },
@@ -775,7 +813,7 @@
     "offers": 0,
     "featured": 0,
     "image": [
-      ""
+      "/accesorios/tapa.webp"
     ],
     "price_id": "price_1If8zeA15852FpvpTGYm6TDy"
   },
@@ -790,7 +828,7 @@
     "offers": 0,
     "featured": 1,
     "image": [
-      ""
+      "/accesorios/bolsas.webp"
     ],
     "price_id": "price_1If90BA15852FpvpO3Oflfqc"
   },
@@ -805,7 +843,7 @@
     "offers": 5,
     "featured": 1,
     "image": [
-      ""
+      "/accesorios/selladora-calor2.jpg"
     ],
     "price_id": "price_1If90hA15852FpvpLgojwXIK"
   },
@@ -820,7 +858,7 @@
     "offers": 5,
     "featured": 1,
     "image": [
-      ""
+      "/accesorios/humidificador.webp"
     ],
     "price_id": "price_1If91EA15852FpvpyW3PwkfV"
   },
@@ -835,7 +873,7 @@
     "offers": 5,
     "featured": 0,
     "image": [
-      ""
+      "/accesorios/all-american.webp"
     ],
     "price_id": "price_1If91rA15852FpvpZhzkd7Qg"
   },
@@ -850,7 +888,7 @@
     "offers": 0,
     "featured": 1,
     "image": [
-      ""
+      "/autoclave/all-american2.webp"
     ],
     "price_id": "price_1If93fA15852FpvptlTFsTAm"
   },
@@ -865,7 +903,7 @@
     "offers": 0,
     "featured": 0,
     "image": [
-      ""
+      "/autoclave/all-american.webp"
     ],
     "price_id": "price_1If94MA15852FpvpZ9K52a3O"
   },
@@ -880,7 +918,7 @@
     "offers": 0,
     "featured": 1,
     "image": [
-      ""
+      "/autoclave/all-american.webp"
     ],
     "price_id": "price_1If94xA15852FpvpglQnIejk"
   },
@@ -895,7 +933,7 @@
     "offers": 0,
     "featured": 0,
     "image": [
-      ""
+      "/autoclave/all-american3.webp"
     ],
     "price_id": "price_1If95XA15852Fpvp649tVEbH"
   },
@@ -910,7 +948,7 @@
     "offers": 20,
     "featured": 1,
     "image": [
-      ""
+      "/autoclave/all-american.webp"
     ],
     "price_id": "price_1If96RA15852FpvpJNp7YNQM"
   },
@@ -925,7 +963,7 @@
     "offers": 0,
     "featured": 1,
     "image": [
-      ""
+      "/materiales/pasteurized-straw.webp"
     ],
     "price_id": "price_1If970A15852Fpvp9hi40HJ5"
   },
@@ -940,7 +978,7 @@
     "offers": 20,
     "featured": 1,
     "image": [
-      ""
+      "/materiales/substrato3.webp"
     ],
     "price_id": "price_1If97ZA15852FpvpErJuXlO8"
   },
@@ -955,7 +993,7 @@
     "offers": 0,
     "featured": 0,
     "image": [
-      ""
+      "/materiales/substrato2.webp"
     ],
     "price_id": "price_1If98HA15852FpvpQReksYUc"
   },
@@ -970,7 +1008,7 @@
     "offers": 0,
     "featured": 0,
     "image": [
-      ""
+      "/materiales/substrato1.webp"
     ],
     "price_id": "price_1If98vA15852Fpvp5kIVXkct"
   },
@@ -985,7 +1023,7 @@
     "offers": 0,
     "featured": 0,
     "image": [
-      ""
+      "/materiales/substrato3.webp"
     ],
     "price_id": "price_1If99UA15852Fpvpq1VcCZTp"
   },
@@ -1000,7 +1038,7 @@
     "offers": 0,
     "featured": 1,
     "image": [
-      ""
+      "/materiales/substrato2.webp"
     ],
     "price_id": "price_1If9A4A15852FpvpRtjIvCtG"
   },
@@ -1015,7 +1053,7 @@
     "offers": 0,
     "featured": 0,
     "image": [
-      ""
+      "/materiales/substrato1.webp"
     ],
     "price_id": "price_1If9AeA15852FpvpdOgDjyV5"
   },
@@ -1030,7 +1068,7 @@
     "offers": 20,
     "featured": 0,
     "image": [
-      ""
+      "/spawn/pellets.webp"
     ],
     "price_id": "price_1If9BYA15852Fpvp3Gc25j4g"
   },
@@ -1045,7 +1083,7 @@
     "offers": 20,
     "featured": 1,
     "image": [
-      ""
+      "/spawn/blanco-micelio.webp"
     ],
     "price_id": "price_1If9C8A15852FpvppNIfv4lJ"
   },
@@ -1060,7 +1098,7 @@
     "offers": 20,
     "featured": 0,
     "image": [
-      ""
+      "/spawn/blanco-micelio.webp"
     ],
     "price_id": "price_1If9ClA15852FpvpxJMemckE"
   },
@@ -1075,7 +1113,7 @@
     "offers": 0,
     "featured": 1,
     "image": [
-      ""
+      "/spawn/blanco-micelio.webp"
     ],
     "price_id": "price_1If9DPA15852Fpvp14dV8kW6"
   },
@@ -1090,7 +1128,7 @@
     "offers": 20,
     "featured": 1,
     "image": [
-      ""
+      "/spawn/blanco-micelio.webp"
     ],
     "price_id": "price_1If9E3A15852FpvpCQY24TxM"
   },
@@ -1105,7 +1143,7 @@
     "offers": 16,
     "featured": 0,
     "image": [
-      ""
+      "/spawn/wood-shiitake.webp"
     ],
     "price_id": "price_1If9EcA15852FpvpWlfe22AU"
   },
@@ -1120,7 +1158,7 @@
     "offers": 0,
     "featured": 1,
     "image": [
-      ""
+      "/spawn/rebozuelo.webp"
     ],
     "price_id": "price_1If9FHA15852FpvpNdwrTZ2Q"
   },
@@ -1135,7 +1173,7 @@
     "offers": 0,
     "featured": 0,
     "image": [
-      ""
+      "/conservacion/vacio.webp"
     ],
     "price_id": "price_1If9FqA15852Fpvp6taW4jcu"
   },
@@ -1150,7 +1188,7 @@
     "offers": 20,
     "featured": 1,
     "image": [
-      ""
+      "/conservacion/vacio.webp"
     ],
     "price_id": "price_1If9GXA15852FpvpZFe9Kat5"
   },
@@ -1165,7 +1203,7 @@
     "offers": 0,
     "featured": 0,
     "image": [
-      ""
+      "/conservacion/vacio.webp"
     ],
     "price_id": "price_1If9H7A15852FpvpMji31Ga0"
   },
@@ -1180,7 +1218,7 @@
     "offers": 0,
     "featured": 0,
     "image": [
-      ""
+      "/conservacion/vacio.webp"
     ],
     "price_id": "price_1If9HhA15852Fpvpvnp4Eb0h"
   },
@@ -1195,7 +1233,7 @@
     "offers": 0,
     "featured": 0,
     "image": [
-      ""
+      "/books/guia-hongos-iberica.webp"
     ],
     "price_id": "price_1If9IbA15852FpvplHHaqAu4"
   },
@@ -1210,7 +1248,7 @@
     "offers": 0,
     "featured": 1,
     "image": [
-      ""
+      "/books/setas-espana-europa.webp"
     ],
     "price_id": "price_1If9JIA15852FpvplMKnvUOZ"
   },
@@ -1225,7 +1263,7 @@
     "offers": 0,
     "featured": 1,
     "image": [
-      ""
+      "/books/guia-boletus-espana-port.webp"
     ],
     "price_id": "price_1If9K6A15852Fpvp1g1LbRq5"
   },
@@ -1240,7 +1278,7 @@
     "offers": 0,
     "featured": 0,
     "image": [
-      ""
+      "/books/setas-espana-europa.webp"
     ],
     "price_id": "price_1If9KiA15852FpvpYFC0hIPU"
   },
@@ -1255,7 +1293,7 @@
     "offers": 0,
     "featured": 0,
     "image": [
-      ""
+      "/books/fungarium.webp"
     ],
     "price_id": "price_1If9LBA15852FpvpleHoKX5N"
   },
@@ -1270,7 +1308,7 @@
     "offers": 0,
     "featured": 0,
     "image": [
-      ""
+      "/books/setas-espana-europa.webp"
     ],
     "price_id": "price_1If9LpA15852FpvpyG82r0Q0"
   }
