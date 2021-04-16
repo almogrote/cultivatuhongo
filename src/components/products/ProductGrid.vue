@@ -1,6 +1,6 @@
 <template>
   <div class="column is-one-third-tablet is-half-mobile"  @click="clickProd">
-    <router-link :to="{ path: `/product/${product.data.id}` }" class="is-flex is-flex-direction-column">
+    <router-link :to="{ path: `/product/${product.data.slug}` }" class="is-flex is-flex-direction-column">
       <b-image :src="`https://raw.githubusercontent.com/almogrote/images/main${product.data.image[0]}`" :alt="product.data.name" ratio="16by9" />
       <h4 class="has-text-black has-text-weight-light mt-2">{{ product.data.name }}</h4>
       <ProductPriceSection :price="product.data.price" :stock="product.data.stock" />

@@ -39,7 +39,7 @@ export default {
   },
   data () {
     return {
-      product_id: this.$route.params.product_id,
+      product_slug: this.$route.params.slug,
       product: null,
       quantity: 0
     }
@@ -49,7 +49,7 @@ export default {
   },
   methods: {
     getProduct () {
-      fetch(`/.netlify/functions/get-product/${this.product_id}`)
+      fetch(`/.netlify/functions/get-product-by-slug/${this.product_slug}`)
         .then((response) => response.json())
         .then((data) => {
           this.product = data.data

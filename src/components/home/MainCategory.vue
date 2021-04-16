@@ -2,10 +2,8 @@
   <section class="section has-text-centered">
     <div class="container">
       <h2 class="title mb-6">Principales categorías</h2>
-      <div class="columns is-full">
-        <div class="columns is-multiline is-mobile" v-if="category">
-          <CategoryGrid v-for="(category, index) in this.category.data" :key="index" :category="category" />
-        </div>
+      <div class="columns is-multiline is-mobile" v-if="category">
+        <CategoryGrid v-for="(category, index) in this.category.data" :key="index" :category="category" />
       </div>
     </div>
   </section>
