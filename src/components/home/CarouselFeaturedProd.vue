@@ -5,7 +5,7 @@
         <h2 class="title">Productos destacados</h2>
     </div>
 
-    <b-carousel-list class="is-shadowless" v-if="products" v-model="values" :data="products" :items-to-show="4" :arrow="true" :repeat="true" :has-drag="true" :as-indicator="true">
+    <b-carousel-list class="is-shadowless" v-if="products" v-model="values" :data="products" :items-to-show="itemsToShow" :arrow="true" :repeat="true" :has-drag="true" :as-indicator="true">
         <template #item="product">
             <router-link :to="{ path: `/product/${product.data.slug}` }">
               <figure class="image is-3by2">
@@ -28,7 +28,8 @@ export default {
   data () {
     return {
       products: null,
-      values: 0
+      values: 0,
+      itemsToShow: 4
     }
   },
   methods: {
@@ -51,6 +52,13 @@ export default {
   },
   beforeMount () {
     this.track()
+    window.addEventListener('resize', () => {
+      if (window.innerWidth < 768) {
+        this.itemsToShow = 2
+      } else {
+        this.itemsToShow = 4
+      }
+    })
   }
 }
 </script>
