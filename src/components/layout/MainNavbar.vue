@@ -2,9 +2,7 @@
   <b-navbar spaced wrapper-class="container">
     <template #brand>
       <b-navbar-item tag="router-link" :to="{ path: '/' }">
-        <img
-          :src="require('@/assets/logo.svg')"
-          alt="Cultiva tu Hongo" />
+        <img :src="require('@/assets/logo-principal.png')" alt="Cultiva tu Hongo" />
       </b-navbar-item>
     </template>
     <template #start>

@@ -127,9 +127,8 @@ export default {
 
 <style>
 .is-menu-checkbox {
-  width: 180px;
+  width: 80%;
   margin:auto;
-  padding:auto;
   list-style: none;
 }
 </style>

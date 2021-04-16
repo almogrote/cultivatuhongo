@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <MainNavbar />
-    <router-view :key="$route.fullPath" />
+    <router-view :key="$route.fullPath" class="base-height" />
     <MainFooter />
   </div>
 </template>
@@ -20,4 +20,7 @@ export default {
 </script>
 
 <style>
+.base-height {
+  min-height: calc(100vh - 358px);
+}
 </style>
