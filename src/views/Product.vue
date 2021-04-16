@@ -3,7 +3,7 @@
       <div class="container has-background-grey-lighter p-6 mb-6">
         <div class="columns" v-if="product">
           <div class="column is-4">
-            <ProductImages />
+            <ProductImages :image="product.image" :name="product.name"/>
           </div>
           <div class="column is-6 is-offset-1">
             <h1 class="title mb-2">{{ product.name }}</h1>
@@ -20,7 +20,7 @@
           </div>
         </div>
       </div>
-      <CarouselFeaturedProd />
+      <CarouselFeaturedProd/>
   </section>
 </template>
 
