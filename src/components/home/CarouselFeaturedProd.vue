@@ -47,9 +47,6 @@ export default {
     },
     clickFeaturedProd: function () {
       this.$ga.event('home', 'featuredProd')
-    },
-    randomPicture () {
-      return parseInt(Math.floor(Math.random() * (2 - 0)) + 0)
     }
   },
   beforeMount () {
