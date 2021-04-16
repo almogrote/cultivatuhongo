@@ -61,7 +61,8 @@ export default {
         price_id: this.product.price_id,
         quantity: this.quantity,
         amount: this.product.price,
-        name: this.product.name
+        name: this.product.name,
+        image: this.product.image[0]
       }
       this.addProductToCart(selectedProduct)
       this.quantity = 0

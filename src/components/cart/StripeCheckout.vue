@@ -1,6 +1,6 @@
 
 <template>
-  <div>
+  <div class="has-text-right">
     <stripe-checkout
       ref="checkoutRef"
       mode="payment"
@@ -10,7 +10,7 @@
       :cancel-url="cancelURL"
       @loading="v => loading = v"
     />
-    <button class="button is-success" @click="submit">Pagar ahora!</button>
+    <button class="button is-dark is-rounded" @click="submit">Pagar ahora!</button>
   </div>
 </template>
 
