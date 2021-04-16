@@ -21,7 +21,7 @@ Vue.use(VueAnalytics, {
     screenview: true
   },
   debug: {
-    enabled: false,
+    enabled: true,
     trace: true,
     sendHitTask: true
   }

@@ -66,7 +66,7 @@ export default {
   },
   data () {
     return {
-      category_id: this.$route.name,
+      category_slug: this.$route.params.slug,
       category: '',
       name: '',
       products: null,
@@ -78,19 +78,19 @@ export default {
   },
   created () {
     this.getCategory()
-    this.getCategoryProducts()
   },
   methods: {
     getCategory () {
-      fetch(`/.netlify/functions/get-category/${this.category_id}`)
+      fetch(`/.netlify/functions/get-category-by-slug/${this.category_slug}`)
         .then((response) => response.json())
         .then((data) => {
           this.category = data
+          this.getCategoryProducts(this.category.data.id)
         })
         .catch((error) => console.log(error))
     },
-    getCategoryProducts () {
-      fetch(`/.netlify/functions/get-category-products/${this.category_id}`)
+    getCategoryProducts (catgoryId) {
+      fetch(`/.netlify/functions/get-category-products/${catgoryId}`)
         .then((response) => response.json())
         .then((data) => {
           this.products = data.data
