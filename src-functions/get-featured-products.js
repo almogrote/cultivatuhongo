@@ -12,7 +12,7 @@ exports.handler = async function (event, context) {
       q.Map(
         q.Paginate(
           q.Match(
-            q.Index('get_products_by_category'),
+            q.Index('get_featured_products'),
             1
           )
         ),
