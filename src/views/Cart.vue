@@ -23,7 +23,7 @@
                 <p class="is-size-5 has-text-danger-dark has-text-weight-light">
                   {{ item.amount }} €
                   <b-numberinput
-                    type="is-dark"
+                    type="is-primary"
                     :value="item.quantity"
                     min="1"
                     max="10"
@@ -67,7 +67,7 @@
         <p class="has-text-centered is-size-3">
           El carrito se encuentra vacío.
           <br />
-          <b-button tag="router-link" to="/" type="is-link">
+          <b-button class="mt-5" tag="router-link" to="/" type="is-primary">
             Volver a la tienda
           </b-button>
         </p>
