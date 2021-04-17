@@ -71,7 +71,7 @@ export default {
       name: '',
       products: null,
       isLoading: true,
-      range: 200,
+      range: 420,
       filterStock: 1000000,
       filterOffers: 1000000
     }
