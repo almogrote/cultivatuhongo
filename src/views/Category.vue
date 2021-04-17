@@ -36,7 +36,7 @@
           <p>{{ category.data.description }}</p>
           <hr />
           <div class="level">
-            <b-dropdown aria-role="list">
+            <b-dropdown class="mb-1" aria-role="list">
               <template #trigger="{ active }">
                 <b-button label="Ordenar por" type="is-dark is-rounded is-small" :icon-right="active ? 'caret-up' : 'caret-down'" />
               </template>
