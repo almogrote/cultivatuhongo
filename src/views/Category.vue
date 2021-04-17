@@ -99,10 +99,10 @@ export default {
         .catch((error) => console.log(error))
     },
     filterBySortLowest () {
-      return this.products.sort((a, b) => (a.data.price > b.data.price))
+      return this.products.sort((a, b) => (a.data.price > b.data.price) ? 0 : -1)
     },
     filterBySortHighest () {
-      return this.products.sort((a, b) => (a.data.price < b.data.price))
+      return this.products.sort((a, b) => (a.data.price < b.data.price) ? 0 : -1)
     },
     filterProductsByStock: function (products) {
       return products.filter(product => this.filterStock === 0 ? (product.data.stock === 0) : this.filterStock === 10000 ? product.data.stock > 0 : product.data.stock >= 0)
