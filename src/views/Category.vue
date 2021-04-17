@@ -32,7 +32,7 @@
         </div>
         <div class="column">
           <!--Category info-->
-          <h1 class="title">{{ category.data.name }}</h1>
+          <h1 class="is-size-2 has-text-weight-bold">{{ category.data.name }}</h1>
           <p>{{ category.data.description }}</p>
           <hr />
           <div class="level">
