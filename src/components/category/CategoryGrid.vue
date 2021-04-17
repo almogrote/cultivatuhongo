@@ -5,7 +5,7 @@
         src="https://learn.freshcap.com/wp-content/uploads/2017/01/1600X1000-blue-oyster-1440x900.png"
         :alt="category.data.name"
         ratio="is-3by2" />
-      <h4 class="has-text-black has-text-weight-bold mt-2">{{ category.data.name }}</h4>
+      <h4 class="has-text-black has-text-weight-medium is-size-5 mt-2">{{ category.data.name }}</h4>
     </router-link>
   </div>
 </template>

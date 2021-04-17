@@ -5,7 +5,7 @@
         <div class="container">
           <div class="columns is-centered is-vcentered">
             <div class="column is-6">
-              <h1 class="is-size-2 has-text-weight-bold">Cultiva tu hongo</h1>
+              <h1 class="is-size-2 has-text-weight-bold mb-2">Cultiva tu hongo</h1>
               <p>
                 En Cultiva tu Hongo podrás encontrar de manera sencilla y accesible todo lo necesario para
               para aprender y cultivar toda clase de hongos. Disponemos de un gran catálogo de variedades

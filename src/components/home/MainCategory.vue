@@ -1,7 +1,7 @@
 <template>
   <section class="section has-text-centered">
     <div class="container">
-      <h2 class="is-size-3 has-text-weight-bold mb-6">Principales categorías</h2>
+      <h2 class="is-size-3 has-text-weight-bold mb-5">Principales categorías</h2>
       <div class="columns is-multiline is-mobile" v-if="category">
         <CategoryGrid v-for="(category, index) in this.category.data" :key="index" :category="category" />
       </div>
