@@ -35,6 +35,22 @@ import MainCategory from '../components/home/MainCategory.vue'
 
 export default {
   name: 'Home',
+  metaInfo: {
+    title: 'HOME - Cultiva Tu Hongo',
+    titleTemplate: '%s',
+    meta: [
+      { name: 'keywords', content: 'hongos, micologia, micelio, esporas, setas, hifa, micorriza' },
+      { name: 'description', content: 'Web dedicada a la venta de hongos, esporas grano miceliado, inóculos en paja, guías para la recolección en el campo o para el autocultivo' },
+      { name: 'robots', content: 'index, follow' },
+      { name: 'lenguage', content: 'Spanish' },
+      { name: 'revisit-after', content: '20 days' },
+      { name: 'author', content: 'Antonio, Mathias y Darel' }
+    ],
+    htmlAttrs: {
+      lang: 'es',
+      amp: true
+    }
+  },
   components: {
     CarouselFeaturedProd,
     MainCategory

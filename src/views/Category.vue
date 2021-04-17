@@ -42,8 +42,8 @@
               <template #trigger="{ active }">
                 <b-button label="Ordenar por" type="is-primary is-rounded is-small" :icon-right="active ? 'caret-up' : 'caret-down'" />
               </template>
-              <b-dropdown-item aria-role="listitem" @click="filterBySortHighest()">Precio: Más caros primero</b-dropdown-item>
-              <b-dropdown-item aria-role="listitem" @click="filterBySortLowest()">Precio: Más baratos primero</b-dropdown-item>
+              <b-dropdown-item aria-role="listitem" @click="filterBySortHighest">Precio: Más caros primero</b-dropdown-item>
+              <b-dropdown-item aria-role="listitem" @click="filterBySortLowest">Precio: Más baratos primero</b-dropdown-item>
             </b-dropdown>
           </div>
           <!-- Products -->
@@ -99,10 +99,10 @@ export default {
         .catch((error) => console.log(error))
     },
     filterBySortLowest () {
-      return this.products.sort((a, b) => (a.data.price > b.data.price) ? 0 : -1)
+      return this.products.sort((a, b) => (a.data.price > b.data.price))
     },
     filterBySortHighest () {
-      return this.products.sort((a, b) => (a.data.price < b.data.price) ? 0 : -1)
+      return this.products.sort((a, b) => (a.data.price < b.data.price))
     },
     filterProductsByStock: function (products) {
       return products.filter(product => this.filterStock === 0 ? (product.data.stock === 0) : this.filterStock === 10000 ? product.data.stock > 0 : product.data.stock >= 0)

@@ -6,5 +6,18 @@ module.exports = {
         pathRewrite: { '^/.netlify/functions': '' }
       }
     }
+  },
+
+  pluginOptions: {
+    prerenderSpa: {
+      registry: undefined,
+      renderRoutes: [
+        '/category',
+        '/product'
+      ],
+      useRenderEvent: true,
+      headless: true,
+      onlyProduction: true
+    }
   }
 }
