@@ -11,7 +11,7 @@
                   <p class="menu-label has-text-centered">Productos por precio</p>
                   <ul class="menu-list">
                     <li class="has-text-centered">{{range}}€</li>
-                    <li class="has-text-centered"><label><input type="range" v-model="range" min="0" max="600" step="1" /></label></li>
+                    <li class="has-text-centered"><label><input type="range" v-model="range" min="0" max="200" step="1" /></label></li>
                   </ul>
 
                   <p class="menu-label has-text-centered">Stock</p>
@@ -44,7 +44,6 @@
               </template>
               <b-dropdown-item aria-role="listitem" @click="filterBySortHighest">Precio: Más caros primero</b-dropdown-item>
               <b-dropdown-item aria-role="listitem" @click="filterBySortLowest">Precio: Más baratos primero</b-dropdown-item>
-              <b-dropdown-item aria-role="listitem">Ofertas</b-dropdown-item>
             </b-dropdown>
           </div>
           <!-- Products -->
@@ -72,7 +71,7 @@ export default {
       name: '',
       products: null,
       isLoading: true,
-      range: 600,
+      range: 200,
       filterStock: 1000000,
       filterOffers: 1000000
     }
@@ -110,11 +109,14 @@ export default {
     },
     filterProductsByOffers: function (products) {
       return products.filter(product => this.filterOffers === 0 ? (product.data.offers === 0) : this.filterOffers === 10000 ? product.data.offers > 0 : product.data.offers >= 0)
+    },
+    filterProductsByRange: function (products) {
+      return products.filter(product => (product.data.price > 0 && product.data.price < this.range) ? product : '')
     }
   },
   computed: {
     filterProducts: function () {
-      return this.filterProductsByStock(this.filterProductsByOffers(this.products))
+      return this.filterProductsByStock(this.filterProductsByOffers(this.filterProductsByRange(this.products)))
     }
   }
 }
