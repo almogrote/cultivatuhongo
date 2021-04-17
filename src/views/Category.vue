@@ -32,11 +32,11 @@
         </div>
         <div class="column">
           <!--Category info-->
-          <h1 class="title">{{ category.data.name }}</h1>
+          <h1 class="is-size-2 has-text-weight-bold">{{ category.data.name }}</h1>
           <p>{{ category.data.description }}</p>
           <hr />
           <div class="level">
-            <b-dropdown aria-role="list">
+            <b-dropdown class="mb-1" aria-role="list">
               <template #trigger="{ active }">
                 <b-button label="Ordenar por" type="is-dark is-rounded is-small" :icon-right="active ? 'caret-up' : 'caret-down'" />
               </template>

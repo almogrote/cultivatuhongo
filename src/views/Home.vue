@@ -4,22 +4,18 @@
       <div class="hero-body">
         <div class="container">
           <div class="columns is-centered is-vcentered">
-            <div class="column is-7">
-              <h1 class="title">Cultiva tu hongo</h1>
+            <div class="column is-6">
+              <h1 class="is-size-2 has-text-weight-bold mb-2">Cultiva tu hongo</h1>
               <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a galley
-                of type and scrambled it to make a type specimen book. It has
-                survived not only five centuries, but also the leap into
-                electronic typesetting, remaining essentially unchanged. It was
-                popularised in the 1960s with the release of Letraset sheets
-                containing Lorem Ipsum passages, and more recently with desktop
-                publishing software like Aldus PageMaker including versions of
-                Lorem Ipsum.
+                En Cultiva tu Hongo podrás encontrar de manera sencilla y accesible todo lo necesario para
+              para aprender y cultivar toda clase de hongos. Disponemos de un gran catálogo de variedades
+              de todo el mundo y los instrumentos y conocimientos necesarios para sacar adelante
+              tus cultivos. Nos apasiona nuestro trabajo, no dudes en escribirnos para cualquier consulta
+              o seguimiento de tus proyectos. ¡Crea tu propio cultivo desde 0 con la guía de preparación que incluimos
+              con la compra. Si quieres montártelo a tu manera o prefieres un kit, tenemos todo lo necesario!.
               </p>
             </div>
-            <div class="column is-5">
+            <div class="column is-offset-1 is-5">
               <figure class="image is-3by2">
                 <img src="https://learn.freshcap.com/wp-content/uploads/2017/01/1600X1000-blue-oyster-1440x900.png" class="is-rounded"/>
               </figure>

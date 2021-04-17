@@ -2,7 +2,7 @@
 <section class="section">
   <div class="container">
     <div class="content has-text-centered">
-        <h2 class="title">Productos destacados</h2>
+        <h2 class="is-size-3 has-text-weight-bold mb-5">Productos destacados</h2>
     </div>
 
     <b-carousel-list class="is-shadowless" v-if="products" v-model="values" :data="products" :items-to-show="itemsToShow" :arrow="true" :repeat="true" :has-drag="true" :as-indicator="true">
