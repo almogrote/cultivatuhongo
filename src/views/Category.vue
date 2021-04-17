@@ -5,7 +5,7 @@
         <div class="column is-one-quarter">
           <!--Category view checkbox-->
           <template>
-            <div class="container">
+                        <div class="container">
               <aside class="menu">
                 <div class="is-menu-checkbox has-background-light is-1 pt-4 pb-4 pl-2 pr-2">
                   <p class="menu-label has-text-centered">Productos por precio</p>
@@ -16,14 +16,16 @@
 
                   <p class="menu-label has-text-centered">Stock</p>
                   <ul class="menu-list">
-                    <li li class="pl-5"><label><input type="radio" v-model="filterStock" value="0"/> Sin Stock</label></li>
-                    <li li class="pl-5"><label><input type="radio" v-model="filterStock" value="10000"/> Con Stock</label></li>
+                    <li li class="pl-5"><label><input type="radio" v-model="filterStock" :value="0"/> Sin Stock</label></li>
+                    <li li class="pl-5"><label><input type="radio" v-model="filterStock" :value="10000"/> Con Stock</label></li>
+                    <li li class="pl-5"><label><input type="radio" v-model="filterStock" :value="100000"/> Todos</label></li>
                   </ul>
 
                   <p class="menu-label has-text-centered">Ofertas</p>
                   <ul class="menu-list">
-                    <li class="pl-5"><label><input type="radio" v-model="filterOffers" value="0"/> Sin ofertas</label></li>
-                    <li class="pl-5"><label><input type="radio" v-model="filterOffers" value="10000"/> Con Ofertas</label></li>
+                    <li class="pl-5"><label><input type="radio" v-model="filterOffers" :value="0"/> Sin ofertas</label></li>
+                    <li class="pl-5"><label><input type="radio" v-model="filterOffers" :value="10000"/> Con Ofertas</label></li>
+                    <li class="pl-5"><label><input type="radio" v-model="filterOffers" :value="100000"/> Todos</label></li>
                   </ul>
                 </div>
               </aside>
@@ -58,7 +60,6 @@
 
 <script>
 import ProductGrid from '../components/products/ProductGrid.vue'
-
 export default {
   name: 'Category',
   components: {
@@ -72,8 +73,8 @@ export default {
       products: null,
       isLoading: true,
       range: 600,
-      filterStock: Number.MAX_VALUE,
-      filterOffers: Number.MAX_VALUE
+      filterStock: 1000000,
+      filterOffers: 1000000
     }
   },
   created () {
@@ -105,21 +106,15 @@ export default {
       return this.products.sort((a, b) => (a.data.price < b.data.price))
     },
     filterProductsByStock: function (products) {
-      return products.filter(product => product.data.stock < this.filterStock)
+      return products.filter(product => this.filterStock === 0 ? (product.data.stock === 0) : this.filterStock === 10000 ? product.data.stock > 0 : product.data.stock >= 0)
     },
     filterProductsByOffers: function (products) {
-      return products.filter(product => product.data.offers < this.filterOffers)
-    },
-    filterProductsByRange: function (products) {
-      return products.filter(product => (product.data.price > 0 && product.data.price < this.range))
-    },
-    filterProductsByName: function (products) {
-      return products.filter(product => !product.data.name.indexOf(this.name))
+      return products.filter(product => this.filterOffers === 0 ? (product.data.offers === 0) : this.filterOffers === 10000 ? product.data.offers > 0 : product.data.offers >= 0)
     }
   },
   computed: {
     filterProducts: function () {
-      return this.filterProductsByStock(this.filterProductsByOffers(this.filterProductsByRange(this.filterProductsByName(this.products))))
+      return this.filterProductsByStock(this.filterProductsByOffers(this.products))
     }
   }
 }
