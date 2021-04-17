@@ -2,16 +2,12 @@
   <b-navbar spaced wrapper-class="container">
     <template #brand>
       <b-navbar-item tag="router-link" :to="{ path: '/' }">
-        <img :src="require('@/assets/logo-principal.png')" alt="Cultiva tu Hongo" />
+        <figure>
+          <img class="image" :src="require('@/assets/logo-principal.png')" alt="Cultiva tu Hongo" />
+        </figure>
       </b-navbar-item>
     </template>
     <template #start>
-        <b-navbar-item tag="div">
-          <router-link class="button is-primary is-rounded is-fullwidth"
-            :to="{ path: '/category/equipamiento-laboratorio' }">
-            Equipación
-          </router-link>
-        </b-navbar-item>
         <b-navbar-item tag="div">
           <router-link class="button is-primary is-rounded is-fullwidth"
             :to="{ path: '/category/sello-de-esporas' }">
@@ -28,6 +24,12 @@
           <router-link class="button is-primary is-rounded is-fullwidth"
             :to="{ path: '/category/autoclaves' }">
             Autoclaves
+          </router-link>
+        </b-navbar-item>
+        <b-navbar-item tag="div">
+          <router-link class="button is-primary is-rounded is-fullwidth"
+            :to="{ path: '/category/equipamiento-laboratorio' }">
+            Equipación
           </router-link>
         </b-navbar-item>
         <b-navbar-item tag="div">
