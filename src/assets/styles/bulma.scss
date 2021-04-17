@@ -6,7 +6,7 @@ $family-sans-serif: "Roboto", sans-serif;
 @import "~bulma/sass/utilities/_all";
 
 // Set your colors
-$primary: #ef8700;
+$primary: #dd7d00;
 $primary-light: findLightColor($primary);
 $primary-dark: findDarkColor($primary);
 $primary-invert: findColorInvert($primary);
