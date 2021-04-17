@@ -42,8 +42,8 @@
               <template #trigger="{ active }">
                 <b-button label="Ordenar por" type="is-dark is-rounded is-small" :icon-right="active ? 'caret-up' : 'caret-down'" />
               </template>
-              <b-dropdown-item aria-role="listitem" @click="filterBySortHighest">Precio: Más caros primero</b-dropdown-item>
-              <b-dropdown-item aria-role="listitem" @click="filterBySortLowest">Precio: Más baratos primero</b-dropdown-item>
+              <b-dropdown-item aria-role="listitem" @click="filterBySortHighest()">Precio: Más caros primero</b-dropdown-item>
+              <b-dropdown-item aria-role="listitem" @click="filterBySortLowest()">Precio: Más baratos primero</b-dropdown-item>
             </b-dropdown>
           </div>
           <!-- Products -->

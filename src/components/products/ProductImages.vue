@@ -3,7 +3,7 @@
   <b-carousel :autoplay="false" with-carousel-list :indicator="false" @click="switchGallery(true)">
     <b-carousel-item v-for="(item, i) in items" :key="i">
       <figure class="image is-5by4">
-        <img :src="item.image" />
+        <img :src="item.image" :alt="`${image}`"/>
       </figure>
     </b-carousel-item>
     <span v-if="gallery" @click="switchGallery(false)" class="modal-close is-large" />
@@ -39,15 +39,18 @@ export default {
       items: [
         {
           title: this.name,
+          alt: this.name,
           image: (typeof this.image[0] === 'undefined') ? '' : 'https://raw.githubusercontent.com/almogrote/images/main' + this.image[0]
         },
         {
           title: this.name,
+          alt: this.name,
           image: (typeof this.image[1] === 'undefined') ? 'https://raw.githubusercontent.com/almogrote/images/main' + this.image[0]
             : 'https://raw.githubusercontent.com/almogrote/images/main' + this.image[1]
         },
         {
           title: this.name,
+          alt: this.name,
           image: (typeof this.image[2] === 'undefined') ? 'https://raw.githubusercontent.com/almogrote/images/main' + this.image[0]
             : 'https://raw.githubusercontent.com/almogrote/images/main' + this.image[2]
         }
