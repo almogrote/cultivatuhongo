@@ -11,7 +11,7 @@
                   <p class="menu-label has-text-centered">Productos por precio</p>
                   <ul class="menu-list">
                     <li class="has-text-centered">{{range}}€</li>
-                    <li class="has-text-centered"><label><input type="range" v-model="range" min="0" max="200" step="1" /></label></li>
+                    <li class="has-text-centered"><label><input type="range" v-model="range" min="0" max="450" step="1" /></label></li>
                   </ul>
 
                   <p class="menu-label has-text-centered">Stock</p>
@@ -71,7 +71,7 @@ export default {
       name: '',
       products: null,
       isLoading: true,
-      range: 420,
+      range: 450,
       filterStock: 1000000,
       filterOffers: 1000000
     }
@@ -99,10 +99,10 @@ export default {
         .catch((error) => console.log(error))
     },
     filterBySortLowest () {
-      return this.products.sort((a, b) => (a.data.price > b.data.price))
+      return this.products.sort((a, b) => (a.data.price > b.data.price) ? 0 : -1)
     },
     filterBySortHighest () {
-      return this.products.sort((a, b) => (a.data.price < b.data.price))
+      return this.products.sort((a, b) => (a.data.price < b.data.price) ? 0 : -1)
     },
     filterProductsByStock: function (products) {
       return products.filter(product => this.filterStock === 0 ? (product.data.stock === 0) : this.filterStock === 10000 ? product.data.stock > 0 : product.data.stock >= 0)
