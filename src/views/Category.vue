@@ -138,7 +138,7 @@ export default {
           case 'firefox':
             return this.products.sort((a, b) => (a.data.price < b.data.price))
           case 'chrome':
-            this.products.sort((a, b) => (a.data.price < b.data.price) ? 0 : -1)
+            return this.products.sort((a, b) => (a.data.price < b.data.price) ? 0 : -1)
         }
       }
     },
