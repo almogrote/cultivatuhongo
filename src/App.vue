@@ -15,6 +15,24 @@ export default {
   components: {
     MainNavbar,
     MainFooter
+  },
+  mounted () {
+    if (!window.localStorage.getItem('policies')) {
+      this.confirmCustom()
+    }
+  },
+  methods: {
+    confirmCustom () {
+      this.$buefy.dialog.confirm({
+        title: 'Privacy Politics',
+        message: `Este sitio web utiliza cookies, para continuar navegando debe aceptarlas
+        Si quiere leer más lea <a href='/policies/'>nuestras políticas</a>`,
+        confirmText: 'Aceptar',
+        cancelText: 'Rechazar',
+        type: 'is-primary',
+        onConfirm: () => window.localStorage.setItem('policies', 1)
+      })
+    }
   }
 }
 </script>
