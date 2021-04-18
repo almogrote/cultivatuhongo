@@ -4,7 +4,7 @@
       <h1 class="title">Carrito</h1>
       <div class="columns" v-if="productsCart.length > 0">
         <div class="column is-9">
-          <div class="columns" v-for="item in productsCart" :key="item.id">
+          <div class="columns" v-for="(item, index) in productsCart" :key="index">
             <div class="column is-3">
               <b-image
                 :src="`https://raw.githubusercontent.com/almogrote/images/main${item.image}`"
@@ -20,17 +20,16 @@
             <div class="column is-3">
               <div class="has-background-light p-4 h-100">
                 <h3 class="title is-4">Cantidad</h3>
-                <p class="is-size-5 has-text-danger-dark has-text-weight-light">
-                  {{ item.amount }} €
-                  <b-numberinput
-                    type="is-primary"
-                    :value="item.quantity"
-                    min="1"
-                    max="10"
-                    :editable="false"
-                    controls-position="compact"
-                  />
-                </p>
+                <div class="columns is-align-items-center">
+                  <div class="column is-5">
+                    <p class="is-size-5 has-text-danger-dark has-text-weight-light">{{ item.amount }} €</p>
+                  </div>
+                  <div class="column is-flex is-align-items-center is-justify-content-space-between">
+                    <button type="button" class="button is-primary" @click="removeItemProduct(index)"><b-icon pack="fas" icon="minus" /></button>
+                    <p>{{ item.quantity }}</p>
+                    <button type="button" class="button is-primary" @click="addItemProduct(index)"><b-icon pack="fas" icon="plus" /></button>
+                  </div>
+                </div>
               </div>
             </div>
             <div class="column is-2">
@@ -44,10 +43,10 @@
               </div>
             </div>
           </div>
-          <div class="is-flex">
+          <hr />
+          <div class="is-flex is-justify-content-flex-end">
             <button class="button is-dark is-rounded" @click="clearCart">Vaciar carrito</button>
           </div>
-          <hr />
         </div>
         <div class="column is-3">
           <div class="content has-background-light p-4">
@@ -91,7 +90,7 @@ export default {
     totalProductPrice (quantity, amount) {
       return quantity * amount
     },
-    ...mapActions(['clearCart'])
+    ...mapActions(['clearCart', 'addItemProduct', 'removeItemProduct'])
   },
   computed: {
     ...mapGetters(['productsCart', 'cartTotal'])

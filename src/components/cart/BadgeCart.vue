@@ -9,12 +9,8 @@ export default {
   computed: {
     ...mapGetters(['productsCart']),
     productCount () {
-      return this.productsCart.length
+      return this.productsCart.reduce((acc, prod) => acc + prod.quantity, 0)
     }
   }
 }
 </script>
-
-<style>
-
-</style>

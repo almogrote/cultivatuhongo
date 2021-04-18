@@ -32,6 +32,10 @@ const routes = [
     component: () => import('../views/Canceled.vue')
   },
   {
+    path: '/policies/',
+    component: () => import('../views/Policies.vue')
+  },
+  {
     path: '*',
     redirect: '/'
   }

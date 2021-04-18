@@ -20,11 +20,27 @@ export default new Vuex.Store({
     clearProductsCart (state) {
       state.productsCart = []
       localStorage.setItem('cart', JSON.stringify(state.productsCart))
+    },
+    addItemProduct (state, itemId) {
+      state.productsCart[itemId].quantity += 1
+    },
+    removeItemProduct (state, itemId) {
+      if (state.productsCart[itemId].quantity === 1) {
+        state.productsCart.splice(itemId, 1)
+      } else {
+        state.productsCart[itemId].quantity -= 1
+      }
     }
   },
   actions: {
     addProductToCart (context, product) {
       context.commit('setProducts', product)
+    },
+    addItemProduct (context, itemId) {
+      context.commit('addItemProduct', itemId)
+    },
+    removeItemProduct (context, itemId) {
+      context.commit('removeItemProduct', itemId)
     },
     clearCart (context) {
       context.commit('clearProductsCart')
