@@ -19,7 +19,7 @@
             </div>
             <div class="column is-offset-1 is-5">
               <figure class="image is-3by2">
-                <img src="https://learn.freshcap.com/wp-content/uploads/2017/01/1600X1000-blue-oyster-1440x900.png" class="is-rounded"/>
+                <img src="https://raw.githubusercontent.com/almogrote/images/main/home/blue-oyster.webp" class="is-rounded"/>
               </figure>
             </div>
           </div>

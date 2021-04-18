@@ -1,13 +1,13 @@
 <template>
   <section class="section">
-    <div class="container" v-if="category">
+    <div class="container">
       <div class="columns is-multiline">
         <div class="column is-one-quarter">
           <!--Category view checkbox-->
           <template>
-            <div class="container">
+            <div class="container is-menu-checkbox">
               <aside class="menu">
-                <div class="is-menu-checkbox has-background-light is-1 pt-4 pb-4 pl-2 pr-2">
+                <div class=" has-background-light is-1 pt-4 pb-4 pl-2 pr-2">
                   <p class="menu-label has-text-centered">Productos por precio</p>
                   <ul class="menu-list">
                     <li class="has-text-centered">{{range}}€</li>
@@ -32,7 +32,7 @@
             </div>
           </template>
         </div>
-        <div class="column">
+        <div class="column ml-4">
           <!--Category info-->
           <h1 class="is-size-2 has-text-weight-bold">{{ category.data.name }}</h1>
           <p>{{ category.data.description }}</p>
@@ -165,7 +165,8 @@ export default {
 
 <style>
 .is-menu-checkbox {
-  width: 80%;
+  min-width: 190px;
+  max-width: 190px;
   margin:auto;
   list-style: none;
 }
