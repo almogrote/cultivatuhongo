@@ -62,7 +62,7 @@ import ProductGrid from '../components/products/ProductGrid.vue'
 export default {
   name: 'Category',
   metaInfo: {
-    title: 'HOME - Cultiva Tu Hongo',
+    title: 'Categorias - Cultiva Tu Hongo',
     titleTemplate: '%s',
     meta: [
       { name: 'keywords', content: 'Sello de esporas, culturas líquidas, autoclaves, accesorios setas, libros hongos, spawn, kits de cultivo, boletus, pleurotus, ostreatus, djamor, eryngii, portobello, lentinuna edodes, pleurotus citrinoplieatus, lentinuna, edodes, shiitake' },
