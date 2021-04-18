@@ -16,8 +16,8 @@ export default {
     MainNavbar,
     MainFooter
   },
-  created () {
-    if (!window.localStorage.getItem('policies')) {
+  mounted () {
+    if (!window.localStorage.getItem('policies') && !this.$el.querySelector('.dialog')) {
       this.confirmCustom()
     }
   },
