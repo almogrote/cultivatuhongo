@@ -16,7 +16,7 @@ export default {
     MainNavbar,
     MainFooter
   },
-  mounted () {
+  created () {
     if (!window.localStorage.getItem('policies')) {
       this.confirmCustom()
     }
@@ -24,7 +24,7 @@ export default {
   methods: {
     confirmCustom () {
       this.$buefy.dialog.confirm({
-        title: 'Privacy Politics',
+        title: 'Politicas de privacidad',
         message: `Este sitio web utiliza cookies, para continuar navegando debe aceptarlas
         Si quiere leer más lea <a href='/policies/'>nuestras políticas</a>`,
         confirmText: 'Aceptar',
