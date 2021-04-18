@@ -61,6 +61,22 @@
 import ProductGrid from '../components/products/ProductGrid.vue'
 export default {
   name: 'Category',
+  metaInfo: {
+    title: 'Categorias - Cultiva Tu Hongo',
+    titleTemplate: '%s',
+    meta: [
+      { name: 'keywords', content: 'Sello de esporas, culturas líquidas, autoclaves, accesorios setas, libros hongos, spawn, kits de cultivo, boletus, pleurotus, ostreatus, djamor, eryngii, portobello, lentinuna edodes, pleurotus citrinoplieatus, lentinuna, edodes, shiitake' },
+      { name: 'description', content: 'Categorias de cultivatuhongo.com, aquí se encuentran productos como esporas, kits de diseción, bisturí, placas petris, guantes de látex' },
+      { name: 'robots', content: 'index, follow' },
+      { name: 'lenguage', content: 'Spanish' },
+      { name: 'revisit-after', content: '20 days' },
+      { name: 'author', content: 'Antonio, Mathias y Darel' }
+    ],
+    htmlAttrs: {
+      lang: 'es',
+      amp: true
+    }
+  },
   components: {
     ProductGrid
   },
@@ -99,10 +115,10 @@ export default {
         .catch((error) => console.log(error))
     },
     filterBySortLowest () {
-      return this.products.sort((a, b) => (a.data.price > b.data.price) ? 0 : -1)
+      return this.products.sort((a, b) => (a.data.price > b.data.price))
     },
     filterBySortHighest () {
-      return this.products.sort((a, b) => (a.data.price < b.data.price) ? 0 : -1)
+      return this.products.sort((a, b) => (a.data.price < b.data.price))
     },
     filterProductsByStock: function (products) {
       return products.filter(product => this.filterStock === 0 ? (product.data.stock === 0) : this.filterStock === 10000 ? product.data.stock > 0 : product.data.stock >= 0)
