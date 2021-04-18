@@ -50,7 +50,7 @@ export default {
     title: 'HOME - Cultiva Tu Hongo',
     titleTemplate: '%s',
     meta: [
-      { name: 'keywords', content: 'hongos, micologia, micelio, esporas, setas, hifa, micorriza' },
+      { name: 'keywords', content: 'hongos, micologia, micelio, esporas, setas, hifa, micorriza, coprinus comatus, pholiota adiposa, flammulina, velutipes, chopo, agrocybe, aegerita' },
       { name: 'description', content: 'Web dedicada a la venta de hongos, esporas grano miceliado, inóculos en paja, guías para la recolección en el campo o para el autocultivo' },
       { name: 'robots', content: 'index, follow' },
       { name: 'lenguage', content: 'Spanish' },

@@ -59,6 +59,8 @@
 
 <script>
 import ProductGrid from '../components/products/ProductGrid.vue'
+import { detect } from '../../node_modules/detect-browser'
+
 export default {
   name: 'Category',
   metaInfo: {
@@ -119,10 +121,26 @@ export default {
         .catch((error) => console.log(error))
     },
     filterBySortLowest () {
-      return this.products.sort((a, b) => (a.data.price > b.data.price))
+      const browser = detect()
+      if (browser) {
+        switch (browser && browser.name) {
+          case 'firefox':
+            return this.products.sort((a, b) => (a.data.price > b.data.price))
+          case 'chrome':
+            return this.products.sort((a, b) => (a.data.price > b.data.price) ? 0 : -1)
+        }
+      }
     },
     filterBySortHighest () {
-      return this.products.sort((a, b) => (a.data.price < b.data.price))
+      const browser = detect()
+      if (browser) {
+        switch (browser && browser.name) {
+          case 'firefox':
+            return this.products.sort((a, b) => (a.data.price < b.data.price))
+          case 'chrome':
+            return this.products.sort((a, b) => (a.data.price < b.data.price) ? 0 : -1)
+        }
+      }
     },
     filterProductsByStock: function (products) {
       return products.filter(product => this.filterStock === 0 ? (product.data.stock === 0) : this.filterStock === 10000 ? product.data.stock > 0 : product.data.stock >= 0)
