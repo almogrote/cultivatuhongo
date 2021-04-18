@@ -24,6 +24,14 @@ const routes = [
     component: () => import('../views/Cart.vue')
   },
   {
+    path: '/success/',
+    component: () => import('../views/Success.vue')
+  },
+  {
+    path: '/canceled/',
+    component: () => import('../views/Canceled.vue')
+  },
+  {
     path: '*',
     redirect: '/'
   }

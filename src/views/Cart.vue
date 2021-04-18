@@ -44,6 +44,9 @@
               </div>
             </div>
           </div>
+          <div class="is-flex">
+            <button class="button is-dark is-rounded" @click="clearCart">Vaciar carrito</button>
+          </div>
           <hr />
         </div>
         <div class="column is-3">
@@ -78,7 +81,7 @@
 
 <script>
 import StripeCheckout from '../components/cart/StripeCheckout.vue'
-import { mapGetters } from 'vuex'
+import { mapGetters, mapActions } from 'vuex'
 export default {
   name: 'Cart',
   components: {
@@ -87,7 +90,8 @@ export default {
   methods: {
     totalProductPrice (quantity, amount) {
       return quantity * amount
-    }
+    },
+    ...mapActions(['clearCart'])
   },
   computed: {
     ...mapGetters(['productsCart', 'cartTotal'])

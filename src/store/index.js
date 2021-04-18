@@ -16,11 +16,18 @@ export default new Vuex.Store({
         state.productsCart.push(product)
       }
       localStorage.setItem('cart', JSON.stringify(state.productsCart))
+    },
+    clearProductsCart (state) {
+      state.productsCart = []
+      localStorage.setItem('cart', JSON.stringify(state.productsCart))
     }
   },
   actions: {
     addProductToCart (context, product) {
       context.commit('setProducts', product)
+    },
+    clearCart (context) {
+      context.commit('clearProductsCart')
     }
   },
   getters: {
