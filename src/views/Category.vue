@@ -5,11 +5,7 @@
         <div class="column is-one-quarter">
           <!--Category view checkbox-->
           <template>
-<<<<<<< HEAD
             <div class="container is-menu-checkbox">
-=======
-            <div class="container">
->>>>>>> b42701c564b4176bc8a7402bdaefd2cccfd52c4b
               <aside class="menu">
                 <div class=" has-background-light is-1 pt-4 pb-4 pl-2 pr-2">
                   <p class="menu-label has-text-centered">Productos por precio</p>
