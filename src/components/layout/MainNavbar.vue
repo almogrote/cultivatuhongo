@@ -15,15 +15,7 @@
     </template>
 
     <template #end>
-      <b-input
-        placeholder="Search..."
-        type="search"
-        icon-pack="fas"
-        icon="search"  />
-      <b-navbar-item href="#">
-        <b-icon pack="fas" icon="user" size="is-medium" />
-      </b-navbar-item>
-      <b-navbar-item tag="div">
+      <b-navbar-item tag="div" class="is-flex is-justify-content-center">
         <router-link
             :to="{ path: '/cart/' }" class="has-text-grey-dark is-flex is-align-items-center">
             <b-icon pack="fas" icon="shopping-cart" size="is-medium" />

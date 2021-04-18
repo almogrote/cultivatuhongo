@@ -131,7 +131,7 @@ export default {
       return products.filter(product => this.filterOffers === 0 ? (product.data.offers === 0) : this.filterOffers === 10000 ? product.data.offers > 0 : product.data.offers >= 0)
     },
     filterProductsByRange: function (products) {
-      return products.filter(product => (product.data.price > 0 && product.data.price < this.range) ? product : '')
+      return products.filter(product => (product.data.price > 0 && product.data.price <= this.range) ? product : '')
     }
   },
   computed: {
