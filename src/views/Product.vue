@@ -52,9 +52,15 @@ export default {
       fetch(`/.netlify/functions/get-product-by-slug/${this.product_slug}`)
         .then((response) => response.json())
         .then((data) => {
+          if (data.name === 'NotFound') {
+            this.$router.push({ path: '/' })
+          }
           this.product = data.data
         })
-        .catch((error) => console.log(error))
+        .catch((error) => {
+          console.log(error)
+          this.$router.push({ path: '/' })
+        })
     },
     addToCart () {
       const selectedProduct = {

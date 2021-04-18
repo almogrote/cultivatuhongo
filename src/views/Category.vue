@@ -11,7 +11,7 @@
                   <p class="menu-label has-text-centered">Productos por precio</p>
                   <ul class="menu-list">
                     <li class="has-text-centered">{{range}}€</li>
-                    <li class="has-text-centered"><label><input type="range" v-model="range" min="0" max="450" step="1" /></label></li>
+                    <li class="has-text-centered"><label><input v-if="products" type="range" v-model="range" min="0" :max="topPrice" step="1" /></label></li>
                   </ul>
 
                   <p class="menu-label has-text-centered">Stock</p>
@@ -103,7 +103,10 @@ export default {
           this.category = data
           this.getCategoryProducts(this.category.data.id)
         })
-        .catch((error) => console.log(error))
+        .catch((error) => {
+          console.log(error)
+          this.$router.push({ path: '/' })
+        })
     },
     getCategoryProducts (catgoryId) {
       fetch(`/.netlify/functions/get-category-products/${catgoryId}`)
@@ -111,6 +114,7 @@ export default {
         .then((data) => {
           this.products = data.data
           this.isLoading = false
+          this.range = this.topPrice
         })
         .catch((error) => console.log(error))
     },
@@ -131,8 +135,11 @@ export default {
     }
   },
   computed: {
-    filterProducts: function () {
+    filterProducts () {
       return this.filterProductsByStock(this.filterProductsByOffers(this.filterProductsByRange(this.products)))
+    },
+    topPrice () {
+      return Math.ceil(Math.max(...this.products.map(product => product.data.price)))
     }
   }
 }

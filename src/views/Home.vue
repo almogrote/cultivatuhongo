@@ -6,14 +6,16 @@
           <div class="columns is-centered is-vcentered">
             <div class="column is-6">
               <h1 class="is-size-2 has-text-weight-bold mb-2">Cultiva tu hongo</h1>
-              <p>
-                En Cultiva tu Hongo podrás encontrar de manera sencilla y accesible todo lo necesario para
-              para aprender y cultivar toda clase de hongos. Disponemos de un gran catálogo de variedades
-              de todo el mundo y los instrumentos y conocimientos necesarios para sacar adelante
-              tus cultivos. Nos apasiona nuestro trabajo, no dudes en escribirnos para cualquier consulta
-              o seguimiento de tus proyectos. ¡Crea tu propio cultivo desde 0 con la guía de preparación que incluimos
-              con la compra. Si quieres montártelo a tu manera o prefieres un kit, tenemos todo lo necesario!.
-              </p>
+              <div class="content">
+                <p class="is-size-5">
+                  En Cultiva tu Hongo podrás encontrar de manera sencilla y accesible todo lo necesario para
+                para aprender y cultivar toda clase de hongos. Disponemos de un gran catálogo de variedades
+                de todo el mundo y los instrumentos y conocimientos necesarios para sacar adelante
+                tus cultivos. Nos apasiona nuestro trabajo, no dudes en escribirnos para cualquier consulta
+                o seguimiento de tus proyectos. ¡Crea tu propio cultivo desde 0 con la guía de preparación que incluimos
+                con la compra. Si quieres montártelo a tu manera o prefieres un kit, tenemos todo lo necesario!.
+                </p>
+              </div>
             </div>
             <div class="column is-offset-1 is-5">
               <figure class="image is-3by2">
@@ -25,6 +27,15 @@
       </div>
     </section>
     <CarouselFeaturedProd />
+    <section class="section">
+      <div class="container has-text-centered">
+        <h2 class="title">Te ayudamos en todo el proceso</h2>
+        <div class="content">
+          <p class="is-size-5">Desde Culltiva Tu Hongo queremos acompañarte en todo el proceso de producción de setas. Desde la inoculación de esporas, hasta la elección del sustrato para cada tipo de seta. No tengas miedo y contáctanos que somos majos. No te olvides de pedirnos nuestras guías de iniciación 😉</p>
+          <a class="button is-large is-primary" href="https://cultivatuhongo.com/#contacto" target="_blank">Contáctanos</a>
+        </div>
+      </div>
+    </section>
     <MainCategory />
   </div>
 </template>

@@ -6,34 +6,10 @@
       </b-navbar-item>
     </template>
     <template #start>
-        <b-navbar-item tag="div">
+        <b-navbar-item v-for="link in menuLinks" :key="link.name" tag="div">
           <router-link class="button is-primary is-rounded is-fullwidth"
-            :to="{ path: '/category/sello-de-esporas' }">
-            Sello de Esporas
-          </router-link>
-        </b-navbar-item>
-        <b-navbar-item tag="div">
-          <router-link class="button is-primary is-rounded is-fullwidth"
-            :to="{ path: '/category/culturas-liquidas' }">
-            Culturas
-          </router-link>
-        </b-navbar-item>
-        <b-navbar-item tag="div">
-          <router-link class="button is-primary is-rounded is-fullwidth"
-            :to="{ path: '/category/autoclaves' }">
-            Autoclaves
-          </router-link>
-        </b-navbar-item>
-        <b-navbar-item tag="div">
-          <router-link class="button is-primary is-rounded is-fullwidth"
-            :to="{ path: '/category/equipamiento-laboratorio' }">
-            Equipación
-          </router-link>
-        </b-navbar-item>
-        <b-navbar-item tag="div">
-          <router-link class="button is-primary is-rounded is-fullwidth"
-            :to="{ path: '/category/libros' }">
-            Libros
+            :to="{ path: link.path }">
+            {{ link.name }}
           </router-link>
         </b-navbar-item>
     </template>
@@ -49,7 +25,7 @@
       </b-navbar-item>
       <b-navbar-item tag="div">
         <router-link
-            :to="{ path: '/cart/' }">
+            :to="{ path: '/cart/' }" class="has-text-grey-dark is-flex is-align-items-center">
             <b-icon pack="fas" icon="shopping-cart" size="is-medium" />
             <BadgeCart />
           </router-link>
@@ -64,6 +40,33 @@ export default {
   name: 'MainNavbar',
   components: {
     BadgeCart
+  },
+  data () {
+    return {
+      menuLinks: [
+        {
+          name: 'Sello de Esporas',
+          path: '/category/sello-de-esporas'
+        },
+        {
+          name: 'Culturas',
+          path: '/category/culturas-liquidas'
+        },
+        {
+          name: 'Autoclaves',
+          path: '/category/autoclaves'
+        },
+        {
+          name: 'Equipación',
+          path: '/category/equipamiento-laboratorio'
+        },
+        {
+          name: 'Libros',
+          path: '/category/libros'
+        }
+
+      ]
+    }
   }
 }
 </script>

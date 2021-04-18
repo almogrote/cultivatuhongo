@@ -11,6 +11,8 @@
               <figure class="image is-3by2">
                 <img :src="`https://raw.githubusercontent.com/almogrote/images/main${product.data.image[0]}`"/>
               </figure>
+              <h4 class="has-text-black has-text-weight-medium mt-2">{{ product.data.name }}</h4>
+              <ProductPriceSection :price="product.data.price" :stock="product.data.stock" />
             </router-link>
         </template>
     </b-carousel-list>
@@ -20,8 +22,12 @@
 </template>
 
 <script>
+import ProductPriceSection from '../products/ProductPriceSection.vue'
 export default {
   name: 'CarouselFeaturedProd',
+  components: {
+    ProductPriceSection
+  },
   created () {
     this.getProduct()
   },
@@ -64,5 +70,7 @@ export default {
 </script>
 
 <style>
-
+.carousel-list .carousel-slides .carousel-slide {
+    padding: 0.375rem;
+}
 </style>
