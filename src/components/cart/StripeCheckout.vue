@@ -31,8 +31,8 @@ export default {
     return {
       loading: false,
       lineItems: [],
-      successURL: 'https://tahichemena.github.io/curso_frontend_2019/stripe/success.html',
-      cancelURL: 'https://tahichemena.github.io/curso_frontend_2019/stripe/canceled.html'
+      successURL: 'https://shop.cultivatuhongo.com/success/',
+      cancelURL: 'https://shop.cultivatuhongo.com/canceled/'
     }
   },
   methods: {

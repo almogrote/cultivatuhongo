@@ -5,7 +5,7 @@ Vue.use(Vuex)
 
 export default new Vuex.Store({
   state: {
-    productsCart: []
+    productsCart: localStorage.getItem('cart') ? JSON.parse(localStorage.getItem('cart')) : []
   },
   mutations: {
     setProducts (state, product) {
@@ -15,11 +15,19 @@ export default new Vuex.Store({
       } else {
         state.productsCart.push(product)
       }
+      localStorage.setItem('cart', JSON.stringify(state.productsCart))
+    },
+    clearProductsCart (state) {
+      state.productsCart = []
+      localStorage.setItem('cart', JSON.stringify(state.productsCart))
     }
   },
   actions: {
     addProductToCart (context, product) {
       context.commit('setProducts', product)
+    },
+    clearCart (context) {
+      context.commit('clearProductsCart')
     }
   },
   getters: {

@@ -20,7 +20,7 @@ export default {
 </script>
 
 <style>
-.base-height {
-  min-height: calc(100vh - 344px);
-}
+  .base-height {
+    min-height: calc(100vh - 334px);
+  }
 </style>
