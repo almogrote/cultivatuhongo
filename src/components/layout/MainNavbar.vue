@@ -50,7 +50,7 @@
       <b-navbar-item tag="div">
         <router-link
             :to="{ path: '/cart/' }">
-            <b-icon pack="fas" icon="shopping-cart" size="is-medium" />
+            <b-icon pack="fas" icon="shopping-cart" size="is-medium" type="is-black" />
             <BadgeCart />
           </router-link>
       </b-navbar-item>
