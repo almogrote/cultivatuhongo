@@ -18,6 +18,7 @@ export default {
   },
   mounted () {
     if (!window.localStorage.getItem('policies') && !this.$el.querySelector('.dialog')) {
+      console.log(1)
       this.confirmCustom()
     }
   },
