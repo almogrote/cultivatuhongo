@@ -21,6 +21,6 @@ export default {
 
 <style>
 .base-height {
-  min-height: calc(100vh - 358px);
+  min-height: calc(100vh - 344px);
 }
 </style>
