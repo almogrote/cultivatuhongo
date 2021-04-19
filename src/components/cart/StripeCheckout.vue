@@ -8,6 +8,7 @@
       :line-items="lineItems"
       :success-url="successURL"
       :cancel-url="cancelURL"
+      :shippingAddressCollection="shipping_address_collection"
       @loading="v => loading = v"
     />
     <button class="button is-dark is-rounded" @click="submit">Pagar ahora!</button>
@@ -32,7 +33,10 @@ export default {
       loading: false,
       lineItems: [],
       successURL: 'https://shop.cultivatuhongo.com/success/',
-      cancelURL: 'https://shop.cultivatuhongo.com/canceled/'
+      cancelURL: 'https://shop.cultivatuhongo.com/canceled/',
+      shipping_address_collection: {
+        allowedCountries: ['ES']
+      }
     }
   },
   methods: {
