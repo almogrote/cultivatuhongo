@@ -54,17 +54,21 @@ export default {
     },
     clickFeaturedProd: function () {
       this.$ga.event('home', 'featuredProd')
-    }
-  },
-  beforeMount () {
-    this.track()
-    window.addEventListener('resize', () => {
+    },
+    resizeSlider () {
       if (window.innerWidth < 768) {
         this.itemsToShow = 2
       } else {
         this.itemsToShow = 4
       }
+    }
+  },
+  beforeMount () {
+    this.track()
+    window.addEventListener('resize', () => {
+      this.resizeSlider()
     })
+    this.resizeSlider()
   }
 }
 </script>

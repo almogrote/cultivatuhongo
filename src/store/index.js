@@ -23,6 +23,7 @@ export default new Vuex.Store({
     },
     addItemProduct (state, itemId) {
       state.productsCart[itemId].quantity += 1
+      localStorage.setItem('cart', JSON.stringify(state.productsCart))
     },
     removeItemProduct (state, itemId) {
       if (state.productsCart[itemId].quantity === 1) {
@@ -30,6 +31,7 @@ export default new Vuex.Store({
       } else {
         state.productsCart[itemId].quantity -= 1
       }
+      localStorage.setItem('cart', JSON.stringify(state.productsCart))
     }
   },
   actions: {
