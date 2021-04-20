@@ -5,7 +5,7 @@
         <h2 class="is-size-3 has-text-weight-bold mb-5">Productos destacados</h2>
     </div>
 
-    <b-carousel-list class="is-shadowless" v-if="products" v-model="values" :data="products" :items-to-show="itemsToShow" :arrow="true" :repeat="true" :has-drag="true" :as-indicator="true">
+    <b-carousel-list class="is-shadowless home-carousel" v-if="products" v-model="values" :data="products" :items-to-show="itemsToShow" :arrow="true" :repeat="true" :has-drag="true" :as-indicator="false">
         <template #item="product">
             <router-link :to="{ path: `/product/${product.data.slug}` }">
               <figure class="image is-3by2">
@@ -76,5 +76,8 @@ export default {
 <style>
 .carousel-list .carousel-slides .carousel-slide {
     padding: 0.375rem;
+}
+.home-carousel > .carousel-arrow .icon.has-icons-left, .home-carousel > .carousel-arrow .icon.has-icons-right {
+    top: 35%;
 }
 </style>
