@@ -32,7 +32,7 @@
             </div>
           </template>
         </div>
-        <div class="column ml-4">
+        <div class="column ml-4" v-if="category">
           <!--Category info-->
           <h1 class="is-size-2 has-text-weight-bold">{{ category.data.name }}</h1>
           <p>{{ category.data.description }}</p>
@@ -165,8 +165,7 @@ export default {
 
 <style>
 .is-menu-checkbox {
-  min-width: 190px;
-  max-width: 190px;
+  width: 100%;
   margin:auto;
   list-style: none;
 }

@@ -10,7 +10,7 @@ export default new Vuex.Store({
   mutations: {
     setProducts (state, product) {
       const productExists = state.productsCart.findIndex(currentValue => currentValue.price_id === product.price_id)
-      if (!productExists) {
+      if (productExists >= 0) {
         state.productsCart[productExists].quantity += product.quantity
       } else {
         state.productsCart.push(product)
